@@ -7,15 +7,43 @@ import json
 #     <= 2013 removes "All Asian" and "All Hawaiian"
 #     <= 2019 removes "URM"
 
+#  TIME SPENT ON PROJECT:
+#     Normalizing Data: Saturday and Sunday
+
 def make_json(csvFilePath, jsonFilePath):
    json_data = {}
    
-   with open(csvFilePath, encoding='utf-8') as csv_file:
+   with open(csvFilePath, encoding='utf-8-sig') as csv_file:
       csvReader = csv.DictReader(csv_file)
       
-      for line_count, rows in enumerate(csvReader, start=2):
-         if all(value.strip(" ") == "" for value in rows.values()):
+      consecutive_empty_rows = 0
+      for line_count, row in enumerate(csvReader, start=2):
+         row = { key:val.strip() for key, val in row.items()}
+
+         if all(value == "" for value in row.values()):
+            consecutive_empty_rows =+1
             continue
+         consecutive_empty_rows = 0
+
+         if row["Major Name"] == "***Campus total***":
+            json_data['Term/Year Code'] = row['Term/Year Code']
+            json_data['Campus total'] = {
+               'Total': row['Total'],
+               'Sex': {
+                  'Men': row['Sex: Men'],
+                  'Women': row['Sex: Women'],
+                  'Unknown': row['Sex: Unknown']
+               }, 
+               'Ethnicity': {
+                  'Men': row['Sex: Men'],
+                  'Women': row['Sex: Women'],
+                  'Unknown': row['Sex: Unknown']
+               }, 
+               'All': {}, 
+               'URM': None, 
+               'Residency': {}}
+         
+         if line_count > 5: break
 
 
  
