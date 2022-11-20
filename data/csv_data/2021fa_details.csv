@@ -1,9 +1,4 @@
-﻿"UIUC Student Enrollment by Curriculum, Sex, Race/Ethnicity, and Residency",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fall 2021,,,,,,,,"PUBLICATION DATE: October 31, 2022",,,,,,,,,,,,,,,,,,,,
-Division of Management Information,,,,,,*** This report is derived from the Registration Census 10-day student statistics.  Any Codebook changes made after ,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,the tenth day of class will not be reflected.  Students obtaining a second bachelor's degree are no longer counted separately.,,,,,,,,,,,,,,,,,,,,,,
-Term/Year Code,Coll,Dept,Degree,Major code,Major Name,Conc code,Concentration Name (if any),Total,By Sex,,,By Self-reported Race/Ethnicity (NEW*),,,,,,,,,All students including multiracial and Hispanic,,,,URM,By Residency,,Academic Program Code
-,,,,,,,,,Men,Women,Unknown,Caucasian,Asian American,African American,Hispanic,Native American,Hawaiian/Pacific Isl,Multiracial,International,Unknown,All   African American,All    Native American,All Hawaiian/ Pac Isl,All Asian,URM,Illinois,Non-Illinois,
+﻿Term/Year Code,Coll,Dept,Degree,Major code,Major Name,Conc code,Concentration Name (if any),Total,Men,Women,Unknown,Caucasian,Asian American,African American,Hispanic,Native American,Hawaiian/Pacific Isl,Multiracial,International,Unknown,All   African American,All    Native American,All Hawaiian/ Pac Isl,All Asian,URM,Illinois,Non-Illinois,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 120218 , , , , ,***Campus total*** , , ,56257,30619,25537,101,22040,9906,3013,6275,25,32,1671,11474,1821,3833,548,227,11291,10027,31422,24835,
 120218 , , , , ,Undergraduate , , ,34559,18612,15915,32,13864,7379,2087,4777,13,13,1270,4716,440,2669,365,167,8473,7379,25659,8900,
