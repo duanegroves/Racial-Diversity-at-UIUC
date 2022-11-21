@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { csv, arc, pie, scaleBand, scaleLinear, max, format } from 'd3';
+import { scaleBand, scaleLinear, max, format } from 'd3';
 import './App.css';
 import useData from './components/useData';
 import AxisBottom from './components/AxisBottom';
