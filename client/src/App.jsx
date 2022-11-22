@@ -2,7 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons'
 import './App.scss';
-import BarChart from './components/BarChart';
+import BarChart from './components/BarChart/BarChart';
+import StackedBarChart from './components/StackedBarChart/StackedBarChart';
 import PersonalImage from './assets/Beaver.PNG'
 
 const App = () => {
@@ -39,6 +40,14 @@ const App = () => {
             <h2>Intro</h2>
           </div>
           <div className="info_area">
+            <StackedBarChart 
+              width={800}
+              height={500}
+              margin={{top:20, right:30, bottom:65, left:220}}
+              dataCsvUrl={'https://raw.githubusercontent.com/duanegroves/Racial-Diversity-at-UIUC/main/data/d3_readable_csv/2022fa_undergraduate_summary.csv'}
+              xValue={d=> d['Total']}
+              yValue={d=> d['College Name']}
+              />
             <BarChart 
               width={800}
               height={500}
