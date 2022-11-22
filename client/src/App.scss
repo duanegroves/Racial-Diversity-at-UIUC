@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+.tick line {
+  stroke: #C0C0BB;
+}
+.tick text {
+  fill: #635F5D;
+}
+.mark {
+  fill: #137B80;
+}
+.axis-label {
+  font-size: 2.5em;
+  fill: #635F5D;
+}
+
+.sidebar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+
+  .test {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    position: relative;
+    margin: 50px auto 50px auto;
+  }
+
+  a {
+    padding: 6px 0 6px 0;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    display: flex;
+    justify-content: center;
+
+    :hover {
+      color: #f1f1f1;
+    }
+
+    .sidebar_icon {
+      border-radius: 25px;
+      background-color: #F5F4F3;
+    }
+  }
+}
+
+.main {
+  margin-left: 100px; /* Same as the width of the sidenav */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;  
+    grid-template-rows: fit-content() fit-content() auto;
+    gap: 50px 50px;
+    grid-template-areas: 
+      "info_area title_area"
+      "info_area personal_area"
+      "info_area purpose_area";
+    padding: 50px;
+  }
+
+  .info_area {
+    grid-area: info_area;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+
+  .title_area {
+    grid-area: title_area;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+
+    img {
+      display: block;
+      margin: 0 auto 0 auto;
+    }
+  }
+
+  .personal_area {
+    grid-area: personal_area;
+    padding: 10px 15px 25px 15px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+
+    .flex {
+      display: flex;
+      align-items: center;
+      margin: 0 auto 0 auto;
+
+      img {
+        width:128px;
+      }
+
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+
+  .purpose_area {
+    grid-area: purpose_area;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+}
