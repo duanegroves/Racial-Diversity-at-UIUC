@@ -24,16 +24,15 @@ const StackedBarChart = ({ width, height, margin, dataCsvUrl, xValue, yValue }) 
     .range([0, innerHeight])
     .paddingInner(0.15);
 
-  const keys = ["Race: White", "Race: Asian American", "Race: Hispanic/Latino", "Race: Black", "Race: Native American", "Race: Hawaiian/Pacific Islander", "Race: Multiracial", "Race: International", "Race: Unknown"]
+  const keys = ["Race: Caucasian", "Race: Asian American", "Race: Hispanic", "Race: African American", "Race: Native American", "Race: Hawaiian/Pacific Isl", "Race: Multiracial", "Race: International", "Race: Unknown"]
   
-  const color = d3.scaleOrdinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00", "#d0743c", "#a05d56"]);
+  const colors = d3.scaleOrdinal()
+    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00", "#d0743c", "#a05d56"])
+    .domain(keys);
 
-  const stack = d3.stack(keys)
+  const stack = d3.stack().keys(keys)
 
   const stackedData = stack(data)
-
-  console.log(stackedData)
 
   return (
     <svg width={width} height={height}>
@@ -44,11 +43,12 @@ const StackedBarChart = ({ width, height, margin, dataCsvUrl, xValue, yValue }) 
         />
         <AxisLeft yScale={yScale} />
         <Marks
-          data={data}
+          stackedData={stackedData}
           xScale={xScale}
           yScale={yScale}
           xValue={xValue}
           yValue={yValue}
+          colors={colors}
         />
       </g>
     </svg>

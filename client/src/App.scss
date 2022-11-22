@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: hidden;
+  // overflow: hidden;
   font-family: 'Poppins', sans-serif;
 }
 pre {
@@ -12,9 +12,9 @@ pre {
 .tick text {
   fill: #635F5D;
 }
-.mark {
-  fill: #137B80;
-}
+// .mark {
+//   fill: #137B80;
+// }
 .axis-label {
   font-size: 2.5em;
   fill: #635F5D;
@@ -31,31 +31,36 @@ pre {
   overflow-x: hidden;
   padding-top: 16px;
 
-  .test {
-    display: flex;
-    justify-content: center;
-  }
-  img {
-    position: relative;
-    margin: 50px auto 50px auto;
-  }
-
-  a {
-    padding: 6px 0 6px 0;
-    text-decoration: none;
-    color: #818181;
-    display: block;
+  .logo_flex {
     display: flex;
     justify-content: center;
 
-    :hover {
-      color: #f1f1f1;
+    img {
+      position: relative;
+      margin: 50px auto 50px auto;
     }
+  }
 
-    .sidebar_icon {
-      border-radius: 25px;
+  .nav_flex {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    place-items: center;
+    margin: 0 auto 0 auto;
+
+
+    .nav_link {
+      border-radius: 10px;
+      padding: 12px;
+      color: #272727;
       background-color: #F5F4F3;
+  
+      &:hover {
+        color: #FFFFFF;
+        background-color: #142A4B;
+      }
     }
+
   }
 }
 
@@ -83,21 +88,19 @@ pre {
 
   .title_area {
     grid-area: title_area;
-    padding: 25px;
     background-color: #FFFFFF;
     border-radius: 25px;
-
-    img {
-      display: block;
-      margin: 0 auto 0 auto;
-    }
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .personal_area {
     grid-area: personal_area;
-    padding: 10px 15px 25px 15px;
     background-color: #FFFFFF;
     border-radius: 25px;
+    padding: 10px 15px 25px 15px;
 
     .flex {
       display: flex;
@@ -116,8 +119,12 @@ pre {
 
   .purpose_area {
     grid-area: purpose_area;
-    padding: 10px;
     background-color: #FFFFFF;
     border-radius: 25px;
+    padding: 25px;
+
+    h2 {
+      margin-top: 0;
+    }
   }
 }
