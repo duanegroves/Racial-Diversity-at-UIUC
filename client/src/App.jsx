@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faBuildingColumns, faBook } from '@fortawesome/free-solid-svg-icons'
 import './App.scss';
 import StackedBarChart from './components/StackedBarChart/StackedBarChart';
+import BarChart from './components/BarChart/BarChart';
 import PersonalImage from './assets/Beaver.PNG'
 
 const App = () => {
@@ -14,9 +15,8 @@ const App = () => {
         </div>
         <div className="nav_flex">
           <div className="nav_link"><FontAwesomeIcon size="xl" icon={faHome} className="sidebar_icon" /></div>
-          <div className="nav_link"><FontAwesomeIcon size="xl" icon={faHome} className="sidebar_icon" /></div>
-          <div className="nav_link"><FontAwesomeIcon size="xl" icon={faHome} className="sidebar_icon" /></div>
-          <div className="nav_link"><FontAwesomeIcon size="xl" icon={faHome} className="sidebar_icon" /></div>
+          <div className="nav_link"><FontAwesomeIcon size="xl" icon={faBuildingColumns} className="sidebar_icon" /></div>
+          <div className="nav_link"><FontAwesomeIcon size="xl" icon={faBook} className="sidebar_icon" /></div>
         </div>
       </div>
 
@@ -33,16 +33,14 @@ const App = () => {
                 <h2>Duane S. Groves</h2>
               </div>
             </div>
-              <p >
-                Hello, I am a CS+Phil student here at UIUCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-              </p>
           </div>
           <div className="purpose_area">
-            <h2>Intro</h2>
+            <h2>Racial Demographics at UIUC</h2>
           </div>
           <div className="info_area">
-            <h1>Overview</h1>
+            <h1 className='first_title'>Overview</h1>
             <StackedBarChart 
+              className="graphics"
               width={750}
               height={500}
               margin={{top:20, right:30, bottom:65, left:220}}
@@ -50,6 +48,9 @@ const App = () => {
               xValue={d=> d['Total']}
               yValue={d=> d['College Name']}
               />
+            <p>
+              Some test here trying to incite some creative thought form the user
+            </p>
             {/* <BarChart 
               width={800}
               height={500}

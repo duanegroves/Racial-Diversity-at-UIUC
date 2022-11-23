@@ -23,6 +23,8 @@ const Marks = ({
               width={xScale(el[1])}
               height={yScale.bandwidth()}
               fill={colors(col.key)}
+              // onMouseEnter={() => toolTip.show(el)}
+              // onMouseLeave={() => toolTip.hide()}
             >
               <title>{xValue(col)}</title>
             </rect>

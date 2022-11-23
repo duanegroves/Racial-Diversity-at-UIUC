@@ -2,6 +2,7 @@ body {
   margin: 0;
   // overflow: hidden;
   font-family: 'Poppins', sans-serif;
+  color: #272727
 }
 pre {
   font-size: 7em;
@@ -79,13 +80,6 @@ pre {
     padding: 50px;
   }
 
-  .info_area {
-    grid-area: info_area;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-  }
-
   .title_area {
     grid-area: title_area;
     background-color: #FFFFFF;
@@ -124,6 +118,17 @@ pre {
     padding: 25px;
 
     h2 {
+      margin-top: 0;
+    }
+  }
+
+  .info_area {
+    grid-area: info_area;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+
+    .first_title {
       margin-top: 0;
     }
   }
