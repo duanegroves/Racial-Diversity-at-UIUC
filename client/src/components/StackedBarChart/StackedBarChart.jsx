@@ -35,36 +35,38 @@ const StackedBarChart = ({ width, height, margin, dataCsvUrl, xValue, yValue }) 
 
   const stackedData = stack(data);
 
-  var tooltip = d3.select("#div_customContent")
-    .append("div")
-    .style("position", "absolute")
-    .style("visibility", "hidden")
-    .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "1px")
-    .style("border-radius", "5px")
-    .style("padding", "10px")
-    .html("<p>I'm a tooltip written zcx in HTML</p><img src='https://github.com/holtzy/D3-graph-gallery/blob/master/img/section/ArcSmal.png?raw=true'></img><br>Fancy<br><span style='font-size: 40px;'>Isn't it?</span>");
+  var tooltip = d3.select("#svg_container")
+  .append("div")
+  .style("position", "fixed")
+  .style("visibility", "hidden")
+  .style("backgroundColor", "red")
+  .style("border", "solid")
+  .style("border-width", "1px")
+  .style("border-radius", "5px")
+  .style("padding", "10px")
+  .html("<p>I'm a tooltip written in HTML</p><img src='https://github.com/holtzy/D3-graph-gallery/blob/master/img/section/ArcSmal.png?raw=true'></img><br>Fancy<br><span style='font-size: 40px;'>Isn't it?</span>");
 
   return (
-    <svg width={width} height={height}>
-      <g transform={`translate(${margin.left},${margin.top})`}>
-        <AxisBottom
-          xScale={xScale}
-          innerHeight={innerHeight}
-        />
-        <AxisLeft yScale={yScale} />
-        <Marks
-          stackedData={stackedData}
-          xScale={xScale}
-          yScale={yScale}
-          xValue={xValue}
-          yValue={yValue}
-          colors={colors}
-          toolTip={tooltip}
-        />
-      </g>
-    </svg>
+    <div id="svg_container">
+      <svg width={width} height={height}>
+        <g transform={`translate(${margin.left},${margin.top})`}>
+          <AxisBottom
+            xScale={xScale}
+            innerHeight={innerHeight}
+          />
+          <AxisLeft yScale={yScale} />
+          <Marks
+            stackedData={stackedData}
+            xScale={xScale}
+            yScale={yScale}
+            xValue={xValue}
+            yValue={yValue}
+            colors={colors}
+            toolTip={tooltip}
+          />
+        </g>
+      </svg>
+    </div>
   );
 };
 

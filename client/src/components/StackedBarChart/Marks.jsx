@@ -10,7 +10,6 @@ const Marks = ({
   colors,
   toolTip
 }) => {
-  console.log(stackedData)
   return (
     <>
       {stackedData.map(col=> 
@@ -26,8 +25,9 @@ const Marks = ({
               fill={colors(col.key)}
               onMouseEnter={() => toolTip.style("visibility", "visible")}
               onMouseMove={(event) => {
-                console.log(event)
-                toolTip.style("top", (event.pageY)+"px").style("left",(event.pageX)+"px")
+                console.log(event);
+                toolTip.style("top", event.clientY+"px").style("left", event.clientX+"px")
+                // toolTip.style("top", "0px").style("left", "0px")
               }}
               onMouseLeave={() => toolTip.style("visibility", "hidden")}
             >
