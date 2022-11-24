@@ -2,9 +2,11 @@ import React from 'react';
 
 const AxisLeft = ({ yScale }) => {
   return yScale.domain().map(tickValue => (
-    <g className="tick">
+    <g 
+      className="tick"
+      key={tickValue}
+    >
       <text
-        key={tickValue}
         style={{ textAnchor: 'end' }}
         x={-3}
         dy=".32em"
