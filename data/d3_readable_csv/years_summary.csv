@@ -1,0 +1,1465 @@
+Year,Race,Level,Total,Subtotal
+2017,Unknown,Overall,47826,533
+2017,Unknown,Undergraduate ,33624,164
+2017,Unknown,Graduate ,13210,326
+2017,Unknown,Professional ,992,43
+2016,Unknown,Overall,44880,323
+2016,Unknown,Undergraduate ,33467,149
+2016,Unknown,Graduate ,10428,107
+2016,Unknown,Professional ,985,67
+2015,Unknown,Overall,44087,428
+2015,Unknown,Undergraduate ,32878,231
+2015,Unknown,Graduate ,10245,80
+2015,Unknown,Professional ,964,117
+2014,Unknown,Overall,43603,569
+2014,Unknown,Undergraduate ,32579,255
+2014,Unknown,Graduate ,10037,153
+2014,Unknown,Professional ,987,161
+2013,Unknown,Overall,43398,392
+2013,Unknown,Undergraduate ,32294,182
+2013,Unknown,Graduate ,10080,89
+2013,Unknown,Professional ,1024,121
+2012,Unknown,Overall,42883,342
+2012,Unknown,Undergraduate ,31901,166
+2012,Unknown,Graduate ,9881,83
+2012,Unknown,Professional ,1101,93
+2011,Unknown,Overall,42606,376
+2011,Unknown,Undergraduate ,31932,210
+2011,Unknown,Graduate ,9551,88
+2011,Unknown,Professional ,1123,78
+2010,Unknown,Overall,41949,386
+2010,Unknown,Undergraduate ,31252,233
+2010,Unknown,Graduate ,9584,112
+2010,Unknown,Professional ,1113,41
+2009,Unknown,Overall,41918,1289
+2009,Unknown,Undergraduate ,31209,878
+2009,Unknown,Graduate ,9630,226
+2009,Unknown,Professional ,1079,185
+2008,Unknown,Overall,41495,1019
+2008,Unknown,Undergraduate ,31173,664
+2008,Unknown,Graduate ,9290,137
+2008,Unknown,Professional ,1032,218
+2007,Unknown,Overall,40923,990
+2007,Unknown,Undergraduate ,30688,644
+2007,Unknown,Graduate ,9225,152
+2007,Unknown,Professional ,1010,194
+2006,Unknown,Overall,41180,962
+2006,Unknown,Undergraduate ,30930,588
+2006,Unknown,Graduate ,9205,151
+2006,Unknown,Professional ,1045,223
+2005,Unknown,Overall,40510,803
+2005,Unknown,Undergraduate ,30449,553
+2005,Unknown,Graduate ,9032,133
+2005,Unknown,Professional ,1029,117
+2004,Unknown,Overall,39516,698
+2004,Unknown,Undergraduate ,29284,471
+2004,Unknown,Graduate ,9164,148
+2004,Unknown,Professional ,1068,79
+2003,Unknown,Overall,38872,874
+2003,Unknown,Undergraduate ,28591,484
+2003,Unknown,Graduate ,9216,306
+2003,Unknown,Professional ,1065,84
+2002,Unknown,Overall,38263,891
+2002,Unknown,Undergraduate ,28243,424
+2002,Unknown,Graduate ,8966,375
+2002,Unknown,Professional ,1054,92
+2001,Unknown,Overall,37684,897
+2001,Unknown,Undergraduate ,28114,402
+2001,Unknown,Graduate ,8509,397
+2001,Unknown,Professional ,1061,98
+2000,Unknown,Overall,36936,752
+2000,Unknown,Undergraduate ,27882,391
+2000,Unknown,Graduate ,8055,288
+2000,Unknown,Professional ,999,73
+1999,Unknown,Overall,36690,615
+1999,Unknown,Undergraduate ,27855,411
+1999,Unknown,Graduate ,7874,136
+1999,Unknown,Professional ,961,68
+1998,Unknown,Overall,36303,629
+1998,Unknown,Undergraduate ,27452,395
+1998,Unknown,Graduate ,7910,186
+1998,Unknown,Professional ,941,48
+1997,Unknown,Overall,35979,599
+1997,Unknown,Undergraduate ,26838,376
+1997,Unknown,Graduate ,8189,183
+1997,Unknown,Professional ,952,40
+1996,Unknown,Overall,36124,525
+1996,Unknown,Undergraduate ,26707,312
+1996,Unknown,Graduate ,8471,182
+1996,Unknown,Professional ,946,31
+1995,Unknown,Overall,36395,486
+1995,Unknown,Undergraduate ,26665,279
+1995,Unknown,Graduate ,8794,184
+1995,Unknown,Professional ,961,24
+1994,Unknown,Overall,36137,550
+1994,Unknown,Undergraduate ,26312,297
+1994,Unknown,Graduate ,8898,243
+1994,Unknown,Professional ,927,10
+1993,Unknown,Overall,36374,535
+1993,Unknown,Undergraduate ,26296,274
+1993,Unknown,Graduate ,9154,249
+1993,Unknown,Professional ,924,12
+1992,Unknown,Overall,35760,485
+1992,Unknown,Undergraduate ,25812,221
+1992,Unknown,Graduate ,9021,255
+1992,Unknown,Professional ,927,9
+1991,Unknown,Overall,36081,462
+1991,Unknown,Undergraduate ,26328,205
+1991,Unknown,Graduate ,8824,250
+1991,Unknown,Professional ,929,7
+1990,Unknown,Overall,35699,549
+1990,Unknown,Undergraduate ,26395,253
+1990,Unknown,Graduate ,8400,272
+1990,Unknown,Professional ,904,24
+1989,Unknown,Overall,34972,468
+1989,Unknown,Undergraduate ,25908,229
+1989,Unknown,Graduate ,8157,223
+1989,Unknown,Professional ,907,16
+1988,Unknown,Overall,35970,466
+1988,Unknown,Undergraduate ,26814,278
+1988,Unknown,Graduate ,8250,174
+1988,Unknown,Professional ,906,14
+1987,Unknown,Overall,36282,380
+1987,Unknown,Undergraduate ,27022,229
+1987,Unknown,Graduate ,8341,145
+1987,Unknown,Professional ,919,6
+1986,Unknown,Overall,36266,470
+1986,Unknown,Undergraduate ,27147,259
+1986,Unknown,Graduate ,8175,204
+1986,Unknown,Professional ,944,7
+1985,Unknown,Overall,35928,485
+1985,Unknown,Undergraduate ,27180,263
+1985,Unknown,Graduate ,7823,211
+1985,Unknown,Professional ,925,11
+1984,Unknown,Overall,34695,635
+1984,Unknown,Undergraduate ,26069,335
+1984,Unknown,Graduate ,7684,280
+1984,Unknown,Professional ,942,20
+1983,Unknown,Overall,34548,299
+1983,Unknown,Undergraduate ,25930,107
+1983,Unknown,Graduate ,7644,188
+1983,Unknown,Professional ,974,4
+1982,Unknown,Overall,34849,312
+1982,Unknown,Undergraduate ,26260,65
+1982,Unknown,Graduate ,7613,242
+1982,Unknown,Professional ,976,5
+1981,Unknown,Overall,35066,207
+1981,Unknown,Undergraduate ,26530,53
+1981,Unknown,Graduate ,7564,150
+1981,Unknown,Professional ,972,4
+1980,Unknown,Overall,34686,161
+1980,Unknown,Undergraduate ,26398,47
+1980,Unknown,Graduate ,7323,111
+1980,Unknown,Professional ,965,3
+1979,Unknown,Overall,34244,289
+1979,Unknown,Undergraduate ,26026,138
+1979,Unknown,Graduate ,7269,138
+1979,Unknown,Professional ,949,13
+1978,Unknown,Overall,33555,215
+1978,Unknown,Undergraduate ,25324,69
+1978,Unknown,Graduate ,7268,134
+1978,Unknown,Professional ,963,12
+1977,Unknown,Overall,33677,317
+1977,Unknown,Undergraduate ,25218,119
+1977,Unknown,Graduate ,7485,177
+1977,Unknown,Professional ,974,21
+1976,Unknown,Overall,33415,717
+1976,Unknown,Undergraduate ,24748,402
+1976,Unknown,Graduate ,7690,275
+1976,Unknown,Professional ,977,40
+1975,Unknown,Overall,34994,1104
+1975,Unknown,Undergraduate ,25771,636
+1975,Unknown,Graduate ,8258,394
+1975,Unknown,Professional ,965,74
+1974,Unknown,Overall,34953,1949
+1974,Unknown,Undergraduate ,25828,939
+1974,Unknown,Graduate ,8192,766
+1974,Unknown,Professional ,933,244
+1973,Unknown,Overall,34616,1363
+1973,Unknown,Undergraduate ,25776,607
+1973,Unknown,Graduate ,7895,698
+1973,Unknown,Professional ,945,58
+1972,Unknown,Overall,33824,1893
+1972,Unknown,Undergraduate ,24694,1055
+1972,Unknown,Graduate ,8117,803
+1972,Unknown,Professional ,1013,35
+1971,Unknown,Overall,32280,1613
+1971,Unknown,Undergraduate ,23105,655
+1971,Unknown,Graduate ,8127,926
+1971,Unknown,Professional ,1048,32
+1970,Unknown,Overall,34018,1144
+1970,Unknown,Undergraduate ,24558,499
+1970,Unknown,Graduate ,8458,619
+1970,Unknown,Professional ,1002,26
+1969,Unknown,Overall,32759,3793
+1969,Unknown,Undergraduate ,23431,2376
+1969,Unknown,Graduate ,8462,1336
+1969,Unknown,Professional ,866,81
+1968,Unknown,Overall,31843,3336
+1968,Unknown,Undergraduate ,22944,2131
+1968,Unknown,Graduate ,8046,1124
+1968,Unknown,Professional ,853,81
+2017,Native American,Overall,47826,25
+2017,Native American,Undergraduate ,33624,16
+2017,Native American,Graduate ,13210,9
+2017,Native American,Professional ,992,0
+2016,Native American,Overall,44880,35
+2016,Native American,Undergraduate ,33467,22
+2016,Native American,Graduate ,10428,12
+2016,Native American,Professional ,985,1
+2015,Native American,Overall,44087,37
+2015,Native American,Undergraduate ,32878,21
+2015,Native American,Graduate ,10245,16
+2015,Native American,Professional ,964,0
+2014,Native American,Overall,43603,36
+2014,Native American,Undergraduate ,32579,18
+2014,Native American,Graduate ,10037,17
+2014,Native American,Professional ,987,1
+2013,Native American,Overall,43398,35
+2013,Native American,Undergraduate ,32294,18
+2013,Native American,Graduate ,10080,16
+2013,Native American,Professional ,1024,1
+2012,Native American,Overall,42883,47
+2012,Native American,Undergraduate ,31901,30
+2012,Native American,Graduate ,9881,15
+2012,Native American,Professional ,1101,2
+2011,Native American,Overall,42606,57
+2011,Native American,Undergraduate ,31932,36
+2011,Native American,Graduate ,9551,18
+2011,Native American,Professional ,1123,3
+2010,Native American,Overall,41949,57
+2010,Native American,Undergraduate ,31252,45
+2010,Native American,Graduate ,9584,8
+2010,Native American,Professional ,1113,4
+2009,Native American,Overall,41918,114
+2009,Native American,Undergraduate ,31209,85
+2009,Native American,Graduate ,9630,23
+2009,Native American,Professional ,1079,6
+2008,Native American,Overall,41495,120
+2008,Native American,Undergraduate ,31173,90
+2008,Native American,Graduate ,9290,23
+2008,Native American,Professional ,1032,7
+2007,Native American,Overall,40923,107
+2007,Native American,Undergraduate ,30688,83
+2007,Native American,Graduate ,9225,20
+2007,Native American,Professional ,1010,4
+2006,Native American,Overall,41180,120
+2006,Native American,Undergraduate ,30930,94
+2006,Native American,Graduate ,9205,21
+2006,Native American,Professional ,1045,5
+2005,Native American,Overall,40510,117
+2005,Native American,Undergraduate ,30449,87
+2005,Native American,Graduate ,9032,25
+2005,Native American,Professional ,1029,5
+2004,Native American,Overall,39516,100
+2004,Native American,Undergraduate ,29284,73
+2004,Native American,Graduate ,9164,23
+2004,Native American,Professional ,1068,4
+2003,Native American,Overall,38872,91
+2003,Native American,Undergraduate ,28591,73
+2003,Native American,Graduate ,9216,17
+2003,Native American,Professional ,1065,1
+2002,Native American,Overall,38263,71
+2002,Native American,Undergraduate ,28243,58
+2002,Native American,Graduate ,8966,13
+2002,Native American,Professional ,1054,0
+2001,Native American,Overall,37684,69
+2001,Native American,Undergraduate ,28114,54
+2001,Native American,Graduate ,8509,14
+2001,Native American,Professional ,1061,1
+2000,Native American,Overall,36936,65
+2000,Native American,Undergraduate ,27882,51
+2000,Native American,Graduate ,8055,13
+2000,Native American,Professional ,999,1
+1999,Native American,Overall,36690,76
+1999,Native American,Undergraduate ,27855,61
+1999,Native American,Graduate ,7874,14
+1999,Native American,Professional ,961,1
+1998,Native American,Overall,36303,81
+1998,Native American,Undergraduate ,27452,63
+1998,Native American,Graduate ,7910,16
+1998,Native American,Professional ,941,2
+1997,Native American,Overall,35979,75
+1997,Native American,Undergraduate ,26838,57
+1997,Native American,Graduate ,8189,18
+1997,Native American,Professional ,952,0
+1996,Native American,Overall,36124,82
+1996,Native American,Undergraduate ,26707,58
+1996,Native American,Graduate ,8471,24
+1996,Native American,Professional ,946,0
+1995,Native American,Overall,36395,71
+1995,Native American,Undergraduate ,26665,54
+1995,Native American,Graduate ,8794,18
+1995,Native American,Professional ,961,2
+1994,Native American,Overall,36137,65
+1994,Native American,Undergraduate ,26312,43
+1994,Native American,Graduate ,8898,18
+1994,Native American,Professional ,927,4
+1993,Native American,Overall,36374,62
+1993,Native American,Undergraduate ,26296,43
+1993,Native American,Graduate ,9154,17
+1993,Native American,Professional ,924,2
+1992,Native American,Overall,35760,50
+1992,Native American,Undergraduate ,25812,32
+1992,Native American,Graduate ,9021,15
+1992,Native American,Professional ,927,3
+1991,Native American,Overall,36081,56
+1991,Native American,Undergraduate ,26328,36
+1991,Native American,Graduate ,8824,15
+1991,Native American,Professional ,929,5
+1990,Native American,Overall,35699,76
+1990,Native American,Undergraduate ,26395,56
+1990,Native American,Graduate ,8400,16
+1990,Native American,Professional ,904,4
+1989,Native American,Overall,34972,59
+1989,Native American,Undergraduate ,25908,41
+1989,Native American,Graduate ,8157,16
+1989,Native American,Professional ,907,2
+1988,Native American,Overall,35970,67
+1988,Native American,Undergraduate ,26814,50
+1988,Native American,Graduate ,8250,17
+1988,Native American,Professional ,906,0
+1987,Native American,Overall,36282,58
+1987,Native American,Undergraduate ,27022,45
+1987,Native American,Graduate ,8341,12
+1987,Native American,Professional ,919,1
+1986,Native American,Overall,36266,60
+1986,Native American,Undergraduate ,27147,47
+1986,Native American,Graduate ,8175,10
+1986,Native American,Professional ,944,3
+1985,Native American,Overall,35928,67
+1985,Native American,Undergraduate ,27180,55
+1985,Native American,Graduate ,7823,9
+1985,Native American,Professional ,925,3
+1984,Native American,Overall,34695,67
+1984,Native American,Undergraduate ,26069,52
+1984,Native American,Graduate ,7684,11
+1984,Native American,Professional ,942,4
+1983,Native American,Overall,34548,70
+1983,Native American,Undergraduate ,25930,57
+1983,Native American,Graduate ,7644,11
+1983,Native American,Professional ,974,2
+1982,Native American,Overall,34849,66
+1982,Native American,Undergraduate ,26260,54
+1982,Native American,Graduate ,7613,10
+1982,Native American,Professional ,976,2
+1981,Native American,Overall,35066,84
+1981,Native American,Undergraduate ,26530,67
+1981,Native American,Graduate ,7564,16
+1981,Native American,Professional ,972,1
+1980,Native American,Overall,34686,107
+1980,Native American,Undergraduate ,26398,81
+1980,Native American,Graduate ,7323,24
+1980,Native American,Professional ,965,2
+1979,Native American,Overall,34244,99
+1979,Native American,Undergraduate ,26026,74
+1979,Native American,Graduate ,7269,23
+1979,Native American,Professional ,949,2
+1978,Native American,Overall,33555,112
+1978,Native American,Undergraduate ,25324,86
+1978,Native American,Graduate ,7268,22
+1978,Native American,Professional ,963,4
+1977,Native American,Overall,33677,121
+1977,Native American,Undergraduate ,25218,89
+1977,Native American,Graduate ,7485,28
+1977,Native American,Professional ,974,4
+1976,Native American,Overall,33415,65
+1976,Native American,Undergraduate ,24748,46
+1976,Native American,Graduate ,7690,14
+1976,Native American,Professional ,977,5
+1975,Native American,Overall,34994,24
+1975,Native American,Undergraduate ,25771,13
+1975,Native American,Graduate ,8258,9
+1975,Native American,Professional ,965,2
+1974,Native American,Overall,34953,29
+1974,Native American,Undergraduate ,25828,16
+1974,Native American,Graduate ,8192,10
+1974,Native American,Professional ,933,3
+1973,Native American,Overall,34616,58
+1973,Native American,Undergraduate ,25776,34
+1973,Native American,Graduate ,7895,22
+1973,Native American,Professional ,945,2
+1972,Native American,Overall,33824,118
+1972,Native American,Undergraduate ,24694,87
+1972,Native American,Graduate ,8117,28
+1972,Native American,Professional ,1013,3
+1971,Native American,Overall,32280,217
+1971,Native American,Undergraduate ,23105,170
+1971,Native American,Graduate ,8127,42
+1971,Native American,Professional ,1048,5
+1970,Native American,Overall,34018,349
+1970,Native American,Undergraduate ,24558,274
+1970,Native American,Graduate ,8458,65
+1970,Native American,Professional ,1002,10
+1969,Native American,Overall,32759,455
+1969,Native American,Undergraduate ,23431,396
+1969,Native American,Graduate ,8462,48
+1969,Native American,Professional ,866,11
+1968,Native American,Overall,31843,625
+1968,Native American,Undergraduate ,22944,561
+1968,Native American,Graduate ,8046,50
+1968,Native American,Professional ,853,14
+2017,Black,Overall,47826,2499
+2017,Black,Undergraduate ,33624,1973
+2017,Black,Graduate ,13210,500
+2017,Black,Professional ,992,26
+2016,Black,Overall,44880,2317
+2016,Black,Undergraduate ,33467,1961
+2016,Black,Graduate ,10428,326
+2016,Black,Professional ,985,30
+2015,Black,Overall,44087,2167
+2015,Black,Undergraduate ,32878,1786
+2015,Black,Graduate ,10245,349
+2015,Black,Professional ,964,32
+2014,Black,Overall,43603,2126
+2014,Black,Undergraduate ,32579,1743
+2014,Black,Graduate ,10037,341
+2014,Black,Professional ,987,42
+2013,Black,Overall,43398,2172
+2013,Black,Undergraduate ,32294,1764
+2013,Black,Graduate ,10080,358
+2013,Black,Professional ,1024,50
+2012,Black,Overall,42883,2160
+2012,Black,Undergraduate ,31901,1741
+2012,Black,Graduate ,9881,359
+2012,Black,Professional ,1101,60
+2011,Black,Overall,42606,2156
+2011,Black,Undergraduate ,31932,1758
+2011,Black,Graduate ,9551,344
+2011,Black,Professional ,1123,54
+2010,Black,Overall,41949,2186
+2010,Black,Undergraduate ,31252,1784
+2010,Black,Graduate ,9584,358
+2010,Black,Professional ,1113,44
+2009,Black,Overall,41918,2472
+2009,Black,Undergraduate ,31209,2049
+2009,Black,Graduate ,9630,372
+2009,Black,Professional ,1079,51
+2008,Black,Overall,41495,2524
+2008,Black,Undergraduate ,31173,2093
+2008,Black,Graduate ,9290,381
+2008,Black,Professional ,1032,50
+2007,Black,Overall,40923,2467
+2007,Black,Undergraduate ,30688,2053
+2007,Black,Graduate ,9225,368
+2007,Black,Professional ,1010,46
+2006,Black,Overall,41180,2516
+2006,Black,Undergraduate ,30930,2118
+2006,Black,Graduate ,9205,360
+2006,Black,Professional ,1045,38
+2005,Black,Overall,40510,2398
+2005,Black,Undergraduate ,30449,1994
+2005,Black,Graduate ,9032,364
+2005,Black,Professional ,1029,40
+2004,Black,Overall,39516,2382
+2004,Black,Undergraduate ,29284,1991
+2004,Black,Graduate ,9164,338
+2004,Black,Professional ,1068,53
+2003,Black,Overall,38872,2522
+2003,Black,Undergraduate ,28591,2145
+2003,Black,Graduate ,9216,315
+2003,Black,Professional ,1065,62
+2002,Black,Overall,38263,2335
+2002,Black,Undergraduate ,28243,1991
+2002,Black,Graduate ,8966,284
+2002,Black,Professional ,1054,60
+2001,Black,Overall,37684,2265
+2001,Black,Undergraduate ,28114,1935
+2001,Black,Graduate ,8509,271
+2001,Black,Professional ,1061,59
+2000,Black,Overall,36936,2324
+2000,Black,Undergraduate ,27882,1957
+2000,Black,Graduate ,8055,311
+2000,Black,Professional ,999,56
+1999,Black,Overall,36690,2382
+1999,Black,Undergraduate ,27855,2020
+1999,Black,Graduate ,7874,301
+1999,Black,Professional ,961,61
+1998,Black,Overall,36303,2351
+1998,Black,Undergraduate ,27452,2017
+1998,Black,Graduate ,7910,269
+1998,Black,Professional ,941,65
+1997,Black,Overall,35979,2316
+1997,Black,Undergraduate ,26838,1948
+1997,Black,Graduate ,8189,301
+1997,Black,Professional ,952,67
+1996,Black,Overall,36124,2316
+1996,Black,Undergraduate ,26707,1906
+1996,Black,Graduate ,8471,342
+1996,Black,Professional ,946,68
+1995,Black,Overall,36395,2292
+1995,Black,Undergraduate ,26665,1866
+1995,Black,Graduate ,8794,346
+1995,Black,Professional ,961,80
+1994,Black,Overall,36137,2219
+1994,Black,Undergraduate ,26312,1847
+1994,Black,Graduate ,8898,299
+1994,Black,Professional ,927,73
+1993,Black,Overall,36374,2193
+1993,Black,Undergraduate ,26296,1845
+1993,Black,Graduate ,9154,277
+1993,Black,Professional ,924,71
+1992,Black,Overall,35760,2128
+1992,Black,Undergraduate ,25812,1792
+1992,Black,Graduate ,9021,269
+1992,Black,Professional ,927,67
+1991,Black,Overall,36081,2112
+1991,Black,Undergraduate ,26328,1838
+1991,Black,Graduate ,8824,218
+1991,Black,Professional ,929,56
+1990,Black,Overall,35699,2101
+1990,Black,Undergraduate ,26395,1872
+1990,Black,Graduate ,8400,182
+1990,Black,Professional ,904,47
+1989,Black,Overall,34972,1896
+1989,Black,Undergraduate ,25908,1732
+1989,Black,Graduate ,8157,131
+1989,Black,Professional ,907,33
+1988,Black,Overall,35970,1730
+1988,Black,Undergraduate ,26814,1545
+1988,Black,Graduate ,8250,158
+1988,Black,Professional ,906,27
+1987,Black,Overall,36282,1556
+1987,Black,Undergraduate ,27022,1386
+1987,Black,Graduate ,8341,145
+1987,Black,Professional ,919,25
+1986,Black,Overall,36266,1369
+1986,Black,Undergraduate ,27147,1205
+1986,Black,Graduate ,8175,144
+1986,Black,Professional ,944,20
+1985,Black,Overall,35928,1263
+1985,Black,Undergraduate ,27180,1088
+1985,Black,Graduate ,7823,144
+1985,Black,Professional ,925,31
+1984,Black,Overall,34695,1159
+1984,Black,Undergraduate ,26069,1012
+1984,Black,Graduate ,7684,124
+1984,Black,Professional ,942,23
+1983,Black,Overall,34548,1185
+1983,Black,Undergraduate ,25930,1006
+1983,Black,Graduate ,7644,151
+1983,Black,Professional ,974,28
+1982,Black,Overall,34849,1155
+1982,Black,Undergraduate ,26260,981
+1982,Black,Graduate ,7613,156
+1982,Black,Professional ,976,18
+1981,Black,Overall,35066,1188
+1981,Black,Undergraduate ,26530,1010
+1981,Black,Graduate ,7564,155
+1981,Black,Professional ,972,23
+1980,Black,Overall,34686,1219
+1980,Black,Undergraduate ,26398,1036
+1980,Black,Graduate ,7323,161
+1980,Black,Professional ,965,22
+1979,Black,Overall,34244,1188
+1979,Black,Undergraduate ,26026,1009
+1979,Black,Graduate ,7269,160
+1979,Black,Professional ,949,19
+1978,Black,Overall,33555,1172
+1978,Black,Undergraduate ,25324,977
+1978,Black,Graduate ,7268,167
+1978,Black,Professional ,963,28
+1977,Black,Overall,33677,1172
+1977,Black,Undergraduate ,25218,943
+1977,Black,Graduate ,7485,196
+1977,Black,Professional ,974,33
+1976,Black,Overall,33415,1219
+1976,Black,Undergraduate ,24748,948
+1976,Black,Graduate ,7690,237
+1976,Black,Professional ,977,34
+1975,Black,Overall,34994,1254
+1975,Black,Undergraduate ,25771,927
+1975,Black,Graduate ,8258,297
+1975,Black,Professional ,965,30
+1974,Black,Overall,34953,1151
+1974,Black,Undergraduate ,25828,855
+1974,Black,Graduate ,8192,268
+1974,Black,Professional ,933,28
+1973,Black,Overall,34616,1298
+1973,Black,Undergraduate ,25776,968
+1973,Black,Graduate ,7895,293
+1973,Black,Professional ,945,37
+1972,Black,Overall,33824,1436
+1972,Black,Undergraduate ,24694,1094
+1972,Black,Graduate ,8117,301
+1972,Black,Professional ,1013,41
+1971,Black,Overall,32280,1358
+1971,Black,Undergraduate ,23105,1039
+1971,Black,Graduate ,8127,280
+1971,Black,Professional ,1048,39
+1970,Black,Overall,34018,1251
+1970,Black,Undergraduate ,24558,943
+1970,Black,Graduate ,8458,267
+1970,Black,Professional ,1002,41
+1969,Black,Overall,32759,1025
+1969,Black,Undergraduate ,23431,783
+1969,Black,Graduate ,8462,221
+1969,Black,Professional ,866,21
+1968,Black,Overall,31843,852
+1968,Black,Undergraduate ,22944,701
+1968,Black,Graduate ,8046,140
+1968,Black,Professional ,853,11
+2017,Asian American,Overall,47826,7171
+2017,Asian American,Undergraduate ,33624,6053
+2017,Asian American,Graduate ,13210,1048
+2017,Asian American,Professional ,992,70
+2016,Asian American,Overall,44880,6633
+2016,Asian American,Undergraduate ,33467,5867
+2016,Asian American,Graduate ,10428,694
+2016,Asian American,Professional ,985,72
+2015,Asian American,Overall,44087,6269
+2015,Asian American,Undergraduate ,32878,5571
+2015,Asian American,Graduate ,10245,637
+2015,Asian American,Professional ,964,61
+2014,Asian American,Overall,43603,5865
+2014,Asian American,Undergraduate ,32579,5148
+2014,Asian American,Graduate ,10037,654
+2014,Asian American,Professional ,987,63
+2013,Asian American,Overall,43398,5573
+2013,Asian American,Undergraduate ,32294,4833
+2013,Asian American,Graduate ,10080,673
+2013,Asian American,Professional ,1024,67
+2012,Asian American,Overall,42883,5255
+2012,Asian American,Undergraduate ,31901,4554
+2012,Asian American,Graduate ,9881,636
+2012,Asian American,Professional ,1101,65
+2011,Asian American,Overall,42606,4991
+2011,Asian American,Undergraduate ,31932,4284
+2011,Asian American,Graduate ,9551,634
+2011,Asian American,Professional ,1123,73
+2010,Asian American,Overall,41949,4786
+2010,Asian American,Undergraduate ,31252,4068
+2010,Asian American,Graduate ,9584,641
+2010,Asian American,Professional ,1113,77
+2009,Asian American,Overall,41918,4834
+2009,Asian American,Undergraduate ,31209,4135
+2009,Asian American,Graduate ,9630,629
+2009,Asian American,Professional ,1079,70
+2008,Asian American,Overall,41495,4835
+2008,Asian American,Undergraduate ,31173,4154
+2008,Asian American,Graduate ,9290,608
+2008,Asian American,Professional ,1032,73
+2007,Asian American,Overall,40923,4628
+2007,Asian American,Undergraduate ,30688,3949
+2007,Asian American,Graduate ,9225,588
+2007,Asian American,Professional ,1010,91
+2006,Asian American,Overall,41180,4538
+2006,Asian American,Undergraduate ,30930,3830
+2006,Asian American,Graduate ,9205,586
+2006,Asian American,Professional ,1045,122
+2005,Asian American,Overall,40510,4572
+2005,Asian American,Undergraduate ,30449,3840
+2005,Asian American,Graduate ,9032,599
+2005,Asian American,Professional ,1029,133
+2004,Asian American,Overall,39516,4487
+2004,Asian American,Undergraduate ,29284,3762
+2004,Asian American,Graduate ,9164,600
+2004,Asian American,Professional ,1068,125
+2003,Asian American,Overall,38872,4238
+2003,Asian American,Undergraduate ,28591,3614
+2003,Asian American,Graduate ,9216,533
+2003,Asian American,Professional ,1065,91
+2002,Asian American,Overall,38263,4204
+2002,Asian American,Undergraduate ,28243,3685
+2002,Asian American,Graduate ,8966,453
+2002,Asian American,Professional ,1054,66
+2001,Asian American,Overall,37684,4126
+2001,Asian American,Undergraduate ,28114,3696
+2001,Asian American,Graduate ,8509,379
+2001,Asian American,Professional ,1061,51
+2000,Asian American,Overall,36936,4108
+2000,Asian American,Undergraduate ,27882,3686
+2000,Asian American,Graduate ,8055,373
+2000,Asian American,Professional ,999,49
+1999,Asian American,Overall,36690,4069
+1999,Asian American,Undergraduate ,27855,3606
+1999,Asian American,Graduate ,7874,416
+1999,Asian American,Professional ,961,47
+1998,Asian American,Overall,36303,4028
+1998,Asian American,Undergraduate ,27452,3576
+1998,Asian American,Graduate ,7910,402
+1998,Asian American,Professional ,941,50
+1997,Asian American,Overall,35979,3909
+1997,Asian American,Undergraduate ,26838,3420
+1997,Asian American,Graduate ,8189,432
+1997,Asian American,Professional ,952,57
+1996,Asian American,Overall,36124,3902
+1996,Asian American,Undergraduate ,26707,3377
+1996,Asian American,Graduate ,8471,471
+1996,Asian American,Professional ,946,54
+1995,Asian American,Overall,36395,3912
+1995,Asian American,Undergraduate ,26665,3363
+1995,Asian American,Graduate ,8794,513
+1995,Asian American,Professional ,961,53
+1994,Asian American,Overall,36137,3866
+1994,Asian American,Undergraduate ,26312,3332
+1994,Asian American,Graduate ,8898,478
+1994,Asian American,Professional ,927,56
+1993,Asian American,Overall,36374,3646
+1993,Asian American,Undergraduate ,26296,3144
+1993,Asian American,Graduate ,9154,460
+1993,Asian American,Professional ,924,42
+1992,Asian American,Overall,35760,3362
+1992,Asian American,Undergraduate ,25812,2917
+1992,Asian American,Graduate ,9021,411
+1992,Asian American,Professional ,927,34
+1991,Asian American,Overall,36081,3195
+1991,Asian American,Undergraduate ,26328,2763
+1991,Asian American,Graduate ,8824,412
+1991,Asian American,Professional ,929,20
+1990,Asian American,Overall,35699,2976
+1990,Asian American,Undergraduate ,26395,2548
+1990,Asian American,Graduate ,8400,414
+1990,Asian American,Professional ,904,14
+1989,Asian American,Overall,34972,2633
+1989,Asian American,Undergraduate ,25908,2200
+1989,Asian American,Graduate ,8157,421
+1989,Asian American,Professional ,907,12
+1988,Asian American,Overall,35970,2493
+1988,Asian American,Undergraduate ,26814,2082
+1988,Asian American,Graduate ,8250,400
+1988,Asian American,Professional ,906,11
+1987,Asian American,Overall,36282,2284
+1987,Asian American,Undergraduate ,27022,1862
+1987,Asian American,Graduate ,8341,412
+1987,Asian American,Professional ,919,10
+1986,Asian American,Overall,36266,2022
+1986,Asian American,Undergraduate ,27147,1636
+1986,Asian American,Graduate ,8175,374
+1986,Asian American,Professional ,944,12
+1985,Asian American,Overall,35928,1867
+1985,Asian American,Undergraduate ,27180,1508
+1985,Asian American,Graduate ,7823,351
+1985,Asian American,Professional ,925,8
+1984,Asian American,Overall,34695,1596
+1984,Asian American,Undergraduate ,26069,1271
+1984,Asian American,Graduate ,7684,318
+1984,Asian American,Professional ,942,7
+1983,Asian American,Overall,34548,1478
+1983,Asian American,Undergraduate ,25930,1159
+1983,Asian American,Graduate ,7644,313
+1983,Asian American,Professional ,974,6
+1982,Asian American,Overall,34849,1331
+1982,Asian American,Undergraduate ,26260,1043
+1982,Asian American,Graduate ,7613,286
+1982,Asian American,Professional ,976,2
+1981,Asian American,Overall,35066,1190
+1981,Asian American,Undergraduate ,26530,941
+1981,Asian American,Graduate ,7564,247
+1981,Asian American,Professional ,972,2
+1980,Asian American,Overall,34686,1058
+1980,Asian American,Undergraduate ,26398,832
+1980,Asian American,Graduate ,7323,222
+1980,Asian American,Professional ,965,4
+1979,Asian American,Overall,34244,925
+1979,Asian American,Undergraduate ,26026,722
+1979,Asian American,Graduate ,7269,200
+1979,Asian American,Professional ,949,3
+1978,Asian American,Overall,33555,743
+1978,Asian American,Undergraduate ,25324,541
+1978,Asian American,Graduate ,7268,200
+1978,Asian American,Professional ,963,2
+1977,Asian American,Overall,33677,602
+1977,Asian American,Undergraduate ,25218,449
+1977,Asian American,Graduate ,7485,151
+1977,Asian American,Professional ,974,2
+1976,Asian American,Overall,33415,538
+1976,Asian American,Undergraduate ,24748,392
+1976,Asian American,Graduate ,7690,143
+1976,Asian American,Professional ,977,3
+1975,Asian American,Overall,34994,421
+1975,Asian American,Undergraduate ,25771,319
+1975,Asian American,Graduate ,8258,99
+1975,Asian American,Professional ,965,3
+1974,Asian American,Overall,34953,397
+1974,Asian American,Undergraduate ,25828,304
+1974,Asian American,Graduate ,8192,90
+1974,Asian American,Professional ,933,3
+1973,Asian American,Overall,34616,382
+1973,Asian American,Undergraduate ,25776,300
+1973,Asian American,Graduate ,7895,79
+1973,Asian American,Professional ,945,3
+1972,Asian American,Overall,33824,363
+1972,Asian American,Undergraduate ,24694,284
+1972,Asian American,Graduate ,8117,74
+1972,Asian American,Professional ,1013,5
+1971,Asian American,Overall,32280,363
+1971,Asian American,Undergraduate ,23105,292
+1971,Asian American,Graduate ,8127,66
+1971,Asian American,Professional ,1048,5
+1970,Asian American,Overall,34018,400
+1970,Asian American,Undergraduate ,24558,330
+1970,Asian American,Graduate ,8458,65
+1970,Asian American,Professional ,1002,5
+1969,Asian American,Overall,32759,382
+1969,Asian American,Undergraduate ,23431,307
+1969,Asian American,Graduate ,8462,71
+1969,Asian American,Professional ,866,4
+1968,Asian American,Overall,31843,385
+1968,Asian American,Undergraduate ,22944,310
+1968,Asian American,Graduate ,8046,72
+1968,Asian American,Professional ,853,3
+2017,Hispanic/Latino,Overall,47826,4439
+2017,Hispanic/Latino,Undergraduate ,33624,3748
+2017,Hispanic/Latino,Graduate ,13210,633
+2017,Hispanic/Latino,Professional ,992,58
+2016,Hispanic/Latino,Overall,44880,3949
+2016,Hispanic/Latino,Undergraduate ,33467,3453
+2016,Hispanic/Latino,Graduate ,10428,444
+2016,Hispanic/Latino,Professional ,985,52
+2015,Hispanic/Latino,Overall,44087,3592
+2015,Hispanic/Latino,Undergraduate ,32878,3108
+2015,Hispanic/Latino,Graduate ,10245,431
+2015,Hispanic/Latino,Professional ,964,53
+2014,Hispanic/Latino,Overall,43603,3303
+2014,Hispanic/Latino,Undergraduate ,32579,2819
+2014,Hispanic/Latino,Graduate ,10037,431
+2014,Hispanic/Latino,Professional ,987,53
+2013,Hispanic/Latino,Overall,43398,3119
+2013,Hispanic/Latino,Undergraduate ,32294,2643
+2013,Hispanic/Latino,Graduate ,10080,403
+2013,Hispanic/Latino,Professional ,1024,73
+2012,Hispanic/Latino,Overall,42883,2831
+2012,Hispanic/Latino,Undergraduate ,31901,2381
+2012,Hispanic/Latino,Graduate ,9881,364
+2012,Hispanic/Latino,Professional ,1101,86
+2011,Hispanic/Latino,Overall,42606,2680
+2011,Hispanic/Latino,Undergraduate ,31932,2237
+2011,Hispanic/Latino,Graduate ,9551,361
+2011,Hispanic/Latino,Professional ,1123,82
+2010,Hispanic/Latino,Overall,41949,2541
+2010,Hispanic/Latino,Undergraduate ,31252,2144
+2010,Hispanic/Latino,Graduate ,9584,330
+2010,Hispanic/Latino,Professional ,1113,67
+2009,Hispanic/Latino,Overall,41918,2470
+2009,Hispanic/Latino,Undergraduate ,31209,2106
+2009,Hispanic/Latino,Graduate ,9630,321
+2009,Hispanic/Latino,Professional ,1079,43
+2008,Hispanic/Latino,Overall,41495,2504
+2008,Hispanic/Latino,Undergraduate ,31173,2127
+2008,Hispanic/Latino,Graduate ,9290,331
+2008,Hispanic/Latino,Professional ,1032,46
+2007,Hispanic/Latino,Overall,40923,2489
+2007,Hispanic/Latino,Undergraduate ,30688,2128
+2007,Hispanic/Latino,Graduate ,9225,319
+2007,Hispanic/Latino,Professional ,1010,42
+2006,Hispanic/Latino,Overall,41180,2464
+2006,Hispanic/Latino,Undergraduate ,30930,2118
+2006,Hispanic/Latino,Graduate ,9205,293
+2006,Hispanic/Latino,Professional ,1045,53
+2005,Hispanic/Latino,Overall,40510,2286
+2005,Hispanic/Latino,Undergraduate ,30449,1942
+2005,Hispanic/Latino,Graduate ,9032,289
+2005,Hispanic/Latino,Professional ,1029,55
+2004,Hispanic/Latino,Overall,39516,2192
+2004,Hispanic/Latino,Undergraduate ,29284,1859
+2004,Hispanic/Latino,Graduate ,9164,277
+2004,Hispanic/Latino,Professional ,1068,56
+2003,Hispanic/Latino,Overall,38872,2108
+2003,Hispanic/Latino,Undergraduate ,28591,1819
+2003,Hispanic/Latino,Graduate ,9216,242
+2003,Hispanic/Latino,Professional ,1065,47
+2002,Hispanic/Latino,Overall,38263,1943
+2002,Hispanic/Latino,Undergraduate ,28243,1699
+2002,Hispanic/Latino,Graduate ,8966,199
+2002,Hispanic/Latino,Professional ,1054,45
+2001,Hispanic/Latino,Overall,37684,1880
+2001,Hispanic/Latino,Undergraduate ,28114,1643
+2001,Hispanic/Latino,Graduate ,8509,187
+2001,Hispanic/Latino,Professional ,1061,50
+2000,Hispanic/Latino,Overall,36936,1856
+2000,Hispanic/Latino,Undergraduate ,27882,1590
+2000,Hispanic/Latino,Graduate ,8055,208
+2000,Hispanic/Latino,Professional ,999,58
+1999,Hispanic/Latino,Overall,36690,1735
+1999,Hispanic/Latino,Undergraduate ,27855,1499
+1999,Hispanic/Latino,Graduate ,7874,178
+1999,Hispanic/Latino,Professional ,961,58
+1998,Hispanic/Latino,Overall,36303,1712
+1998,Hispanic/Latino,Undergraduate ,27452,1450
+1998,Hispanic/Latino,Graduate ,7910,209
+1998,Hispanic/Latino,Professional ,941,53
+1997,Hispanic/Latino,Overall,35979,1661
+1997,Hispanic/Latino,Undergraduate ,26838,1411
+1997,Hispanic/Latino,Graduate ,8189,197
+1997,Hispanic/Latino,Professional ,952,53
+1996,Hispanic/Latino,Overall,36124,1661
+1996,Hispanic/Latino,Undergraduate ,26707,1417
+1996,Hispanic/Latino,Graduate ,8471,199
+1996,Hispanic/Latino,Professional ,946,45
+1995,Hispanic/Latino,Overall,36395,1687
+1995,Hispanic/Latino,Undergraduate ,26665,1455
+1995,Hispanic/Latino,Graduate ,8794,189
+1995,Hispanic/Latino,Professional ,961,43
+1994,Hispanic/Latino,Overall,36137,1638
+1994,Hispanic/Latino,Undergraduate ,26312,1424
+1994,Hispanic/Latino,Graduate ,8898,178
+1994,Hispanic/Latino,Professional ,927,36
+1993,Hispanic/Latino,Overall,36374,1579
+1993,Hispanic/Latino,Undergraduate ,26296,1395
+1993,Hispanic/Latino,Graduate ,9154,148
+1993,Hispanic/Latino,Professional ,924,36
+1992,Hispanic/Latino,Overall,35760,1470
+1992,Hispanic/Latino,Undergraduate ,25812,1308
+1992,Hispanic/Latino,Graduate ,9021,126
+1992,Hispanic/Latino,Professional ,927,36
+1991,Hispanic/Latino,Overall,36081,1369
+1991,Hispanic/Latino,Undergraduate ,26328,1219
+1991,Hispanic/Latino,Graduate ,8824,126
+1991,Hispanic/Latino,Professional ,929,24
+1990,Hispanic/Latino,Overall,35699,1266
+1990,Hispanic/Latino,Undergraduate ,26395,1133
+1990,Hispanic/Latino,Graduate ,8400,108
+1990,Hispanic/Latino,Professional ,904,25
+1989,Hispanic/Latino,Overall,34972,1103
+1989,Hispanic/Latino,Undergraduate ,25908,974
+1989,Hispanic/Latino,Graduate ,8157,114
+1989,Hispanic/Latino,Professional ,907,15
+1988,Hispanic/Latino,Overall,35970,951
+1988,Hispanic/Latino,Undergraduate ,26814,820
+1988,Hispanic/Latino,Graduate ,8250,112
+1988,Hispanic/Latino,Professional ,906,19
+1987,Hispanic/Latino,Overall,36282,792
+1987,Hispanic/Latino,Undergraduate ,27022,668
+1987,Hispanic/Latino,Graduate ,8341,108
+1987,Hispanic/Latino,Professional ,919,16
+1986,Hispanic/Latino,Overall,36266,699
+1986,Hispanic/Latino,Undergraduate ,27147,580
+1986,Hispanic/Latino,Graduate ,8175,108
+1986,Hispanic/Latino,Professional ,944,11
+1985,Hispanic/Latino,Overall,35928,622
+1985,Hispanic/Latino,Undergraduate ,27180,520
+1985,Hispanic/Latino,Graduate ,7823,90
+1985,Hispanic/Latino,Professional ,925,12
+1984,Hispanic/Latino,Overall,34695,562
+1984,Hispanic/Latino,Undergraduate ,26069,464
+1984,Hispanic/Latino,Graduate ,7684,84
+1984,Hispanic/Latino,Professional ,942,14
+1983,Hispanic/Latino,Overall,34548,559
+1983,Hispanic/Latino,Undergraduate ,25930,458
+1983,Hispanic/Latino,Graduate ,7644,87
+1983,Hispanic/Latino,Professional ,974,14
+1982,Hispanic/Latino,Overall,34849,524
+1982,Hispanic/Latino,Undergraduate ,26260,418
+1982,Hispanic/Latino,Graduate ,7613,93
+1982,Hispanic/Latino,Professional ,976,13
+1981,Hispanic/Latino,Overall,35066,485
+1981,Hispanic/Latino,Undergraduate ,26530,389
+1981,Hispanic/Latino,Graduate ,7564,89
+1981,Hispanic/Latino,Professional ,972,7
+1980,Hispanic/Latino,Overall,34686,451
+1980,Hispanic/Latino,Undergraduate ,26398,358
+1980,Hispanic/Latino,Graduate ,7323,83
+1980,Hispanic/Latino,Professional ,965,10
+1979,Hispanic/Latino,Overall,34244,389
+1979,Hispanic/Latino,Undergraduate ,26026,287
+1979,Hispanic/Latino,Graduate ,7269,92
+1979,Hispanic/Latino,Professional ,949,10
+1978,Hispanic/Latino,Overall,33555,355
+1978,Hispanic/Latino,Undergraduate ,25324,242
+1978,Hispanic/Latino,Graduate ,7268,99
+1978,Hispanic/Latino,Professional ,963,14
+1977,Hispanic/Latino,Overall,33677,343
+1977,Hispanic/Latino,Undergraduate ,25218,232
+1977,Hispanic/Latino,Graduate ,7485,101
+1977,Hispanic/Latino,Professional ,974,10
+1976,Hispanic/Latino,Overall,33415,285
+1976,Hispanic/Latino,Undergraduate ,24748,199
+1976,Hispanic/Latino,Graduate ,7690,78
+1976,Hispanic/Latino,Professional ,977,8
+1975,Hispanic/Latino,Overall,34994,240
+1975,Hispanic/Latino,Undergraduate ,25771,166
+1975,Hispanic/Latino,Graduate ,8258,68
+1975,Hispanic/Latino,Professional ,965,6
+1974,Hispanic/Latino,Overall,34953,212
+1974,Hispanic/Latino,Undergraduate ,25828,148
+1974,Hispanic/Latino,Graduate ,8192,60
+1974,Hispanic/Latino,Professional ,933,4
+1973,Hispanic/Latino,Overall,34616,165
+1973,Hispanic/Latino,Undergraduate ,25776,109
+1973,Hispanic/Latino,Graduate ,7895,47
+1973,Hispanic/Latino,Professional ,945,9
+1972,Hispanic/Latino,Overall,33824,145
+1972,Hispanic/Latino,Undergraduate ,24694,104
+1972,Hispanic/Latino,Graduate ,8117,33
+1972,Hispanic/Latino,Professional ,1013,8
+1971,Hispanic/Latino,Overall,32280,145
+1971,Hispanic/Latino,Undergraduate ,23105,96
+1971,Hispanic/Latino,Graduate ,8127,40
+1971,Hispanic/Latino,Professional ,1048,9
+1970,Hispanic/Latino,Overall,34018,180
+1970,Hispanic/Latino,Undergraduate ,24558,121
+1970,Hispanic/Latino,Graduate ,8458,52
+1970,Hispanic/Latino,Professional ,1002,7
+1969,Hispanic/Latino,Overall,32759,163
+1969,Hispanic/Latino,Undergraduate ,23431,108
+1969,Hispanic/Latino,Graduate ,8462,48
+1969,Hispanic/Latino,Professional ,866,7
+1968,Hispanic/Latino,Overall,31843,142
+1968,Hispanic/Latino,Undergraduate ,22944,103
+1968,Hispanic/Latino,Graduate ,8046,33
+1968,Hispanic/Latino,Professional ,853,6
+2017,White,Overall,47826,20778
+2017,White,Undergraduate ,33624,15061
+2017,White,Graduate ,13210,5009
+2017,White,Professional ,992,708
+2016,White,Overall,44880,19721
+2016,White,Undergraduate ,33467,15467
+2016,White,Graduate ,10428,3575
+2016,White,Professional ,985,679
+2015,White,Overall,44087,20068
+2015,White,Undergraduate ,32878,15695
+2015,White,Graduate ,10245,3741
+2015,White,Professional ,964,632
+2014,White,Overall,43603,20774
+2014,White,Undergraduate ,32579,16368
+2014,White,Graduate ,10037,3808
+2014,White,Professional ,987,598
+2013,White,Overall,43398,21688
+2013,White,Undergraduate ,32294,17010
+2013,White,Graduate ,10080,4021
+2013,White,Professional ,1024,657
+2012,White,Overall,42883,22677
+2012,White,Undergraduate ,31901,17826
+2012,White,Graduate ,9881,4109
+2012,White,Professional ,1101,742
+2011,White,Overall,42606,23484
+2011,White,Undergraduate ,31932,18569
+2011,White,Graduate ,9551,4128
+2011,White,Professional ,1123,787
+2010,White,Overall,41949,24024
+2010,White,Undergraduate ,31252,18879
+2010,White,Graduate ,9584,4310
+2010,White,Professional ,1113,835
+2009,White,Overall,41918,24248
+2009,White,Undergraduate ,31209,19182
+2009,White,Graduate ,9630,4370
+2009,White,Professional ,1079,696
+2008,White,Overall,41495,24767
+2008,White,Undergraduate ,31173,19820
+2008,White,Graduate ,9290,4333
+2008,White,Professional ,1032,614
+2007,White,Overall,40923,25042
+2007,White,Undergraduate ,30688,20142
+2007,White,Graduate ,9225,4293
+2007,White,Professional ,1010,607
+2006,White,Overall,41180,25499
+2006,White,Undergraduate ,30930,20628
+2006,White,Graduate ,9205,4291
+2006,White,Professional ,1045,580
+2005,White,Overall,40510,25527
+2005,White,Undergraduate ,30449,20593
+2005,White,Graduate ,9032,4273
+2005,White,Professional ,1029,661
+2004,White,Overall,39516,24909
+2004,White,Undergraduate ,29284,19841
+2004,White,Graduate ,9164,4332
+2004,White,Professional ,1068,736
+2003,White,Overall,38872,24284
+2003,White,Undergraduate ,28591,19327
+2003,White,Graduate ,9216,4190
+2003,White,Professional ,1065,767
+2002,White,Overall,38263,24267
+2002,White,Undergraduate ,28243,19434
+2002,White,Graduate ,8966,4053
+2002,White,Professional ,1054,780
+2001,White,Overall,37684,24164
+2001,White,Undergraduate ,28114,19513
+2001,White,Graduate ,8509,3866
+2001,White,Professional ,1061,785
+2000,White,Overall,36936,24066
+2000,White,Undergraduate ,27882,19558
+2000,White,Graduate ,8055,3760
+2000,White,Professional ,999,748
+1999,White,Overall,36690,24403
+1999,White,Undergraduate ,27855,19716
+1999,White,Graduate ,7874,3966
+1999,White,Professional ,961,721
+1998,White,Overall,36303,24264
+1998,White,Undergraduate ,27452,19411
+1998,White,Graduate ,7910,4135
+1998,White,Professional ,941,718
+1997,White,Overall,35979,24211
+1997,White,Undergraduate ,26838,19120
+1997,White,Graduate ,8189,4360
+1997,White,Professional ,952,731
+1996,White,Overall,36124,24519
+1996,White,Undergraduate ,26707,19156
+1996,White,Graduate ,8471,4627
+1996,White,Professional ,946,736
+1995,White,Overall,36395,24862
+1995,White,Undergraduate ,26665,19213
+1995,White,Graduate ,8794,4905
+1995,White,Professional ,961,748
+1994,White,Overall,36137,24684
+1994,White,Undergraduate ,26312,18952
+1994,White,Graduate ,8898,4989
+1994,White,Professional ,927,743
+1993,White,Overall,36374,25196
+1993,White,Undergraduate ,26296,19165
+1993,White,Graduate ,9154,5273
+1993,White,Professional ,924,758
+1992,White,Overall,35760,25226
+1992,White,Undergraduate ,25812,19140
+1992,White,Graduate ,9021,5309
+1992,White,Professional ,927,777
+1991,White,Overall,36081,26023
+1991,White,Undergraduate ,26328,19910
+1991,White,Graduate ,8824,5299
+1991,White,Professional ,929,814
+1990,White,Overall,35699,26027
+1990,White,Undergraduate ,26395,20218
+1990,White,Graduate ,8400,5021
+1990,White,Professional ,904,788
+1989,White,Overall,34972,26258
+1989,White,Undergraduate ,25908,20432
+1989,White,Graduate ,8157,4998
+1989,White,Professional ,907,828
+1988,White,Overall,35970,27819
+1988,White,Undergraduate ,26814,21777
+1988,White,Graduate ,8250,5207
+1988,White,Professional ,906,835
+1987,White,Overall,36282,28886
+1987,White,Undergraduate ,27022,22593
+1987,White,Graduate ,8341,5432
+1987,White,Professional ,919,861
+1986,White,Overall,36266,29514
+1986,White,Undergraduate ,27147,23195
+1986,White,Graduate ,8175,5428
+1986,White,Professional ,944,891
+1985,White,Overall,35928,29736
+1985,White,Undergraduate ,27180,23536
+1985,White,Graduate ,7823,5340
+1985,White,Professional ,925,860
+1984,White,Overall,34695,28976
+1984,White,Undergraduate ,26069,22746
+1984,White,Graduate ,7684,5356
+1984,White,Professional ,942,874
+1983,White,Overall,34548,29345
+1983,White,Undergraduate ,25930,22940
+1983,White,Graduate ,7644,5485
+1983,White,Professional ,974,920
+1982,White,Overall,34849,29910
+1982,White,Undergraduate ,26260,23479
+1982,White,Graduate ,7613,5495
+1982,White,Professional ,976,936
+1981,White,Overall,35066,30374
+1981,White,Undergraduate ,26530,23830
+1981,White,Graduate ,7564,5609
+1981,White,Professional ,972,935
+1980,White,Overall,34686,30247
+1980,White,Undergraduate ,26398,23815
+1980,White,Graduate ,7323,5508
+1980,White,Professional ,965,924
+1979,White,Overall,34244,29988
+1979,White,Undergraduate ,26026,23568
+1979,White,Graduate ,7269,5518
+1979,White,Professional ,949,902
+1978,White,Overall,33555,29645
+1978,White,Undergraduate ,25324,23197
+1978,White,Graduate ,7268,5545
+1978,White,Professional ,963,903
+1977,White,Overall,33677,29886
+1977,White,Undergraduate ,25218,23193
+1977,White,Graduate ,7485,5789
+1977,White,Professional ,974,904
+1976,White,Overall,33415,29453
+1976,White,Undergraduate ,24748,22595
+1976,White,Graduate ,7690,5971
+1976,White,Professional ,977,887
+1975,White,Overall,34994,30742
+1975,White,Undergraduate ,25771,23543
+1975,White,Graduate ,8258,6349
+1975,White,Professional ,965,850
+1974,White,Overall,34953,30038
+1974,White,Undergraduate ,25828,23376
+1974,White,Graduate ,8192,6012
+1974,White,Professional ,933,650
+1973,White,Overall,34616,30230
+1973,White,Undergraduate ,25776,23577
+1973,White,Graduate ,7895,5818
+1973,White,Professional ,945,835
+1972,White,Overall,33824,28724
+1972,White,Undergraduate ,24694,21928
+1972,White,Graduate ,8117,5875
+1972,White,Professional ,1013,921
+1971,White,Overall,32280,27447
+1971,White,Undergraduate ,23105,20769
+1971,White,Graduate ,8127,5720
+1971,White,Professional ,1048,958
+1970,White,Overall,34018,29352
+1970,White,Undergraduate ,24558,22306
+1970,White,Graduate ,8458,6134
+1970,White,Professional ,1002,912
+1969,White,Overall,32759,25634
+1969,White,Undergraduate ,23431,19368
+1969,White,Graduate ,8462,5525
+1969,White,Professional ,866,741
+1968,White,Overall,31843,25347
+1968,White,Undergraduate ,22944,18999
+1968,White,Graduate ,8046,5614
+1968,White,Professional ,853,734
+2017,International,Overall,47826,11084
+2017,International,Undergraduate ,33624,5569
+2017,International,Graduate ,13210,5451
+2017,International,Professional ,992,64
+2016,International,Overall,44880,10700
+2016,International,Undergraduate ,33467,5537
+2016,International,Graduate ,10428,5097
+2016,International,Professional ,985,66
+2015,International,Overall,44087,10381
+2015,International,Undergraduate ,32878,5511
+2015,International,Graduate ,10245,4819
+2015,International,Professional ,964,51
+2014,International,Overall,43603,9871
+2014,International,Undergraduate ,32579,5332
+2014,International,Graduate ,10037,4484
+2014,International,Professional ,987,55
+2013,International,Overall,43398,9407
+2013,International,Undergraduate ,32294,4990
+2013,International,Graduate ,10080,4378
+2013,International,Professional ,1024,39
+2012,International,Overall,42883,8648
+2012,International,Undergraduate ,31901,4447
+2012,International,Graduate ,9881,4169
+2012,International,Professional ,1101,32
+2011,International,Overall,42606,8009
+2011,International,Undergraduate ,31932,4154
+2011,International,Graduate ,9551,3831
+2011,International,Professional ,1123,24
+2010,International,Overall,41949,7223
+2010,International,Undergraduate ,31252,3484
+2010,International,Graduate ,9584,3715
+2010,International,Professional ,1113,24
+2009,International,Overall,41918,6491
+2009,International,Undergraduate ,31209,2774
+2009,International,Graduate ,9630,3689
+2009,International,Professional ,1079,28
+2008,International,Overall,41495,5726
+2008,International,Undergraduate ,31173,2225
+2008,International,Graduate ,9290,3477
+2008,International,Professional ,1032,24
+2007,International,Overall,40923,5200
+2007,International,Undergraduate ,30688,1689
+2007,International,Graduate ,9225,3485
+2007,International,Professional ,1010,26
+2006,International,Overall,41180,5081
+2006,International,Undergraduate ,30930,1554
+2006,International,Graduate ,9205,3503
+2006,International,Professional ,1045,24
+2005,International,Overall,40510,4807
+2005,International,Undergraduate ,30449,1440
+2005,International,Graduate ,9032,3349
+2005,International,Professional ,1029,18
+2004,International,Overall,39516,4748
+2004,International,Undergraduate ,29284,1287
+2004,International,Graduate ,9164,3446
+2004,International,Professional ,1068,15
+2003,International,Overall,38872,4755
+2003,International,Undergraduate ,28591,1129
+2003,International,Graduate ,9216,3613
+2003,International,Professional ,1065,13
+2002,International,Overall,38263,4552
+2002,International,Undergraduate ,28243,952
+2002,International,Graduate ,8966,3589
+2002,International,Professional ,1054,11
+2001,International,Overall,37684,4283
+2001,International,Undergraduate ,28114,871
+2001,International,Graduate ,8509,3395
+2001,International,Professional ,1061,17
+2000,International,Overall,36936,3765
+2000,International,Undergraduate ,27882,649
+2000,International,Graduate ,8055,3102
+2000,International,Professional ,999,14
+1999,International,Overall,36690,3410
+1999,International,Undergraduate ,27855,542
+1999,International,Graduate ,7874,2863
+1999,International,Professional ,961,5
+1998,International,Overall,36303,3238
+1998,International,Undergraduate ,27452,540
+1998,International,Graduate ,7910,2693
+1998,International,Professional ,941,5
+1997,International,Overall,35979,3208
+1997,International,Undergraduate ,26838,506
+1997,International,Graduate ,8189,2698
+1997,International,Professional ,952,4
+1996,International,Overall,36124,3119
+1996,International,Undergraduate ,26707,481
+1996,International,Graduate ,8471,2626
+1996,International,Professional ,946,12
+1995,International,Overall,36395,3085
+1995,International,Undergraduate ,26665,435
+1995,International,Graduate ,8794,2639
+1995,International,Professional ,961,11
+1994,International,Overall,36137,3115
+1994,International,Undergraduate ,26312,417
+1994,International,Graduate ,8898,2693
+1994,International,Professional ,927,5
+1993,International,Overall,36374,3163
+1993,International,Undergraduate ,26296,430
+1993,International,Graduate ,9154,2730
+1993,International,Professional ,924,3
+1992,International,Overall,35760,3039
+1992,International,Undergraduate ,25812,402
+1992,International,Graduate ,9021,2636
+1992,International,Professional ,927,1
+1991,International,Overall,36081,2864
+1991,International,Undergraduate ,26328,357
+1991,International,Graduate ,8824,2504
+1991,International,Professional ,929,3
+1990,International,Overall,35699,2704
+1990,International,Undergraduate ,26395,315
+1990,International,Graduate ,8400,2387
+1990,International,Professional ,904,2
+1989,International,Overall,34972,2555
+1989,International,Undergraduate ,25908,300
+1989,International,Graduate ,8157,2254
+1989,International,Professional ,907,1
+1988,International,Overall,35970,2444
+1988,International,Undergraduate ,26814,262
+1988,International,Graduate ,8250,2182
+1988,International,Professional ,906,0
+1987,International,Overall,36282,2326
+1987,International,Undergraduate ,27022,239
+1987,International,Graduate ,8341,2087
+1987,International,Professional ,919,0
+1986,International,Overall,36266,2132
+1986,International,Undergraduate ,27147,225
+1986,International,Graduate ,8175,1907
+1986,International,Professional ,944,0
+1985,International,Overall,35928,1888
+1985,International,Undergraduate ,27180,210
+1985,International,Graduate ,7823,1678
+1985,International,Professional ,925,0
+1984,International,Overall,34695,1700
+1984,International,Undergraduate ,26069,189
+1984,International,Graduate ,7684,1511
+1984,International,Professional ,942,0
+1983,International,Overall,34548,1612
+1983,International,Undergraduate ,25930,203
+1983,International,Graduate ,7644,1409
+1983,International,Professional ,974,0
+1982,International,Overall,34849,1551
+1982,International,Undergraduate ,26260,220
+1982,International,Graduate ,7613,1331
+1982,International,Professional ,976,0
+1981,International,Overall,35066,1538
+1981,International,Undergraduate ,26530,240
+1981,International,Graduate ,7564,1298
+1981,International,Professional ,972,0
+1980,International,Overall,34686,1443
+1980,International,Undergraduate ,26398,229
+1980,International,Graduate ,7323,1214
+1980,International,Professional ,965,0
+1979,International,Overall,34244,1366
+1979,International,Undergraduate ,26026,228
+1979,International,Graduate ,7269,1138
+1979,International,Professional ,949,0
+1978,International,Overall,33555,1313
+1978,International,Undergraduate ,25324,212
+1978,International,Graduate ,7268,1101
+1978,International,Professional ,963,0
+1977,International,Overall,33677,1236
+1977,International,Undergraduate ,25218,193
+1977,International,Graduate ,7485,1043
+1977,International,Professional ,974,0
+1976,International,Overall,33415,1138
+1976,International,Undergraduate ,24748,166
+1976,International,Graduate ,7690,972
+1976,International,Professional ,977,0
+1975,International,Overall,34994,1209
+1975,International,Undergraduate ,25771,167
+1975,International,Graduate ,8258,1042
+1975,International,Professional ,965,0
+1974,International,Overall,34953,1177
+1974,International,Undergraduate ,25828,190
+1974,International,Graduate ,8192,986
+1974,International,Professional ,933,1
+1973,International,Overall,34616,1120
+1973,International,Undergraduate ,25776,181
+1973,International,Graduate ,7895,938
+1973,International,Professional ,945,1
+1972,International,Overall,33824,1145
+1972,International,Undergraduate ,24694,142
+1972,International,Graduate ,8117,1003
+1972,International,Professional ,1013,0
+1971,International,Overall,32280,1137
+1971,International,Undergraduate ,23105,84
+1971,International,Graduate ,8127,1053
+1971,International,Professional ,1048,0
+1970,International,Overall,34018,1342
+1970,International,Undergraduate ,24558,85
+1970,International,Graduate ,8458,1256
+1970,International,Professional ,1002,1
+1969,International,Overall,32759,1307
+1969,International,Undergraduate ,23431,93
+1969,International,Graduate ,8462,1213
+1969,International,Professional ,866,1
+1968,International,Overall,31843,1156
+1968,International,Undergraduate ,22944,139
+1968,International,Graduate ,8046,1013
+1968,International,Professional ,853,4
+2017,Hawaiian/Pacific Islander,Overall,47826,29
+2017,Hawaiian/Pacific Islander,Undergraduate ,33624,23
+2017,Hawaiian/Pacific Islander,Graduate ,13210,6
+2017,Hawaiian/Pacific Islander,Professional ,992,0
+2016,Hawaiian/Pacific Islander,Overall,44880,27
+2016,Hawaiian/Pacific Islander,Undergraduate ,33467,24
+2016,Hawaiian/Pacific Islander,Graduate ,10428,3
+2016,Hawaiian/Pacific Islander,Professional ,985,0
+2015,Hawaiian/Pacific Islander,Overall,44087,30
+2015,Hawaiian/Pacific Islander,Undergraduate ,32878,24
+2015,Hawaiian/Pacific Islander,Graduate ,10245,5
+2015,Hawaiian/Pacific Islander,Professional ,964,1
+2014,Hawaiian/Pacific Islander,Overall,43603,45
+2014,Hawaiian/Pacific Islander,Undergraduate ,32579,36
+2014,Hawaiian/Pacific Islander,Graduate ,10037,8
+2014,Hawaiian/Pacific Islander,Professional ,987,1
+2013,Hawaiian/Pacific Islander,Overall,43398,55
+2013,Hawaiian/Pacific Islander,Undergraduate ,32294,48
+2013,Hawaiian/Pacific Islander,Graduate ,10080,6
+2013,Hawaiian/Pacific Islander,Professional ,1024,1
+2012,Hawaiian/Pacific Islander,Overall,42883,61
+2012,Hawaiian/Pacific Islander,Undergraduate ,31901,57
+2012,Hawaiian/Pacific Islander,Graduate ,9881,4
+2012,Hawaiian/Pacific Islander,Professional ,1101,0
+2011,Hawaiian/Pacific Islander,Overall,42606,59
+2011,Hawaiian/Pacific Islander,Undergraduate ,31932,53
+2011,Hawaiian/Pacific Islander,Graduate ,9551,5
+2011,Hawaiian/Pacific Islander,Professional ,1123,1
+2010,Hawaiian/Pacific Islander,Overall,41949,59
+2010,Hawaiian/Pacific Islander,Undergraduate ,31252,55
+2010,Hawaiian/Pacific Islander,Graduate ,9584,3
+2010,Hawaiian/Pacific Islander,Professional ,1113,1
+2017,Multiracial,Overall,47826,1268
+2017,Multiracial,Undergraduate ,33624,1017
+2017,Multiracial,Graduate ,13210,228
+2017,Multiracial,Professional ,992,23
+2016,Multiracial,Overall,44880,1175
+2016,Multiracial,Undergraduate ,33467,987
+2016,Multiracial,Graduate ,10428,170
+2016,Multiracial,Professional ,985,18
+2015,Multiracial,Overall,44087,1115
+2015,Multiracial,Undergraduate ,32878,931
+2015,Multiracial,Graduate ,10245,167
+2015,Multiracial,Professional ,964,17
+2014,Multiracial,Overall,43603,1014
+2014,Multiracial,Undergraduate ,32579,860
+2014,Multiracial,Graduate ,10037,141
+2014,Multiracial,Professional ,987,13
+2013,Multiracial,Overall,43398,957
+2013,Multiracial,Undergraduate ,32294,806
+2013,Multiracial,Graduate ,10080,136
+2013,Multiracial,Professional ,1024,15
+2012,Multiracial,Overall,42883,862
+2012,Multiracial,Undergraduate ,31901,699
+2012,Multiracial,Graduate ,9881,142
+2012,Multiracial,Professional ,1101,21
+2011,Multiracial,Overall,42606,794
+2011,Multiracial,Undergraduate ,31932,631
+2011,Multiracial,Graduate ,9551,142
+2011,Multiracial,Professional ,1123,21
+2010,Multiracial,Overall,41949,687
+2010,Multiracial,Undergraduate ,31252,560
+2010,Multiracial,Graduate ,9584,107
+2010,Multiracial,Professional ,1113,20
