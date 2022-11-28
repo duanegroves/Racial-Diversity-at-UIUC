@@ -9,7 +9,7 @@ const useData = (csvUrl) => {
       for (let key in d) {
         if (
           key !== "College Name" &&
-          key !== "Student level" &&
+          key !== "Student Level" &&
           key !== "Level"
         ) {
           d[key] = +d[key];
