@@ -1,43 +1,28 @@
-import { color } from 'd3';
-import React from 'react';
+import { color } from "d3";
+import React from "react";
 
-const Marks = ({
-  stackedData,
-  xScale,
-  yScale,
-  xValue,
-  yValue,
-  colors,
-  toolTip
-}) => {
+const Marks = ({ stackedData, xScale, yScale, xValue, yValue, colors }) => {
   return (
     <>
-      {stackedData.map(col=> 
+      {stackedData.map((col) => (
         <g key={col.key}>
-          {col.map(el =>
+          {col.map((el) => (
             <rect
               className="mark"
-              key={col.key+'->'+yValue(el.data)}
+              key={col.key + "->" + yValue(el.data)}
               x={xScale(el[0])}
               y={yScale(yValue(el.data))}
               width={xScale(el[1])}
               height={yScale.bandwidth()}
               fill={colors(col.key)}
-              onMouseEnter={() => toolTip.style("visibility", "visible")}
-              onMouseMove={(event) => {
-                console.log(event);
-                toolTip.style("top", event.clientY+"px").style("left", event.clientX+"px")
-                // toolTip.style("top", "0px").style("left", "0px")
-              }}
-              onMouseLeave={() => toolTip.style("visibility", "hidden")}
             >
               <title>{xValue(col)}</title>
             </rect>
-          )}
+          ))}
         </g>
-      )}
+      ))}
     </>
-  )
-}
+  );
+};
 
-export default Marks
+export default Marks;

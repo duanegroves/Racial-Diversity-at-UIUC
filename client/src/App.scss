@@ -1,24 +1,24 @@
 body {
   margin: 0;
   // overflow: hidden;
-  font-family: 'Poppins', sans-serif;
-  color: #272727
+  font-family: "Poppins", sans-serif;
+  color: #272727;
 }
 pre {
   font-size: 7em;
 }
 .tick line {
-  stroke: #C0C0BB;
+  stroke: #c0c0bb;
 }
 .tick text {
-  fill: #635F5D;
+  fill: #635f5d;
 }
 // .mark {
 //   fill: #137B80;
 // }
 .axis-label {
   font-size: 2.5em;
-  fill: #635F5D;
+  fill: #635f5d;
 }
 
 .sidebar {
@@ -28,7 +28,7 @@ pre {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow-x: hidden;
   padding-top: 16px;
 
@@ -49,42 +49,45 @@ pre {
     place-items: center;
     margin: 0 auto 0 auto;
 
-
     .nav_link {
       border-radius: 10px;
       padding: 12px;
       color: #272727;
-      background-color: #F5F4F3;
-  
+      background-color: #f5f4f3;
+
       &:hover {
-        color: #FFFFFF;
-        background-color: #142A4B;
+        color: #ffffff;
+        background-color: #142a4b;
       }
     }
 
+    .nav_link_active {
+      border-radius: 10px;
+      padding: 12px;
+      color: #ffffff;
+      background-color: #142a4b;
+    }
   }
 }
 
 .main {
   margin-left: 100px; /* Same as the width of the sidenav */
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 2fr;  
-    grid-template-rows: fit-content() fit-content() auto;
-    gap: 50px 50px;
-    grid-template-areas: 
-      "info_area title_area"
-      "info_area personal_area"
-      "info_area purpose_area";
-    padding: 50px;
-  }
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 50px 50px;
+  grid-template-areas:
+    "info_area title_area"
+    "info_area personal_area"
+    "info_area purpose_area"
+    "info_area .";
+  padding: 50px;
 
   .title_area {
     grid-area: title_area;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 25px;
-    padding: 15px 25px;
+    padding: 20px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,9 +95,9 @@ pre {
 
   .personal_area {
     grid-area: personal_area;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 25px;
-    padding: 10px 15px 25px 15px;
+    padding: 10px 15px 10px 15px;
 
     .flex {
       display: flex;
@@ -102,7 +105,7 @@ pre {
       margin: 0 auto 0 auto;
 
       img {
-        width:128px;
+        width: 128px;
       }
 
       h2 {
@@ -113,23 +116,45 @@ pre {
 
   .purpose_area {
     grid-area: purpose_area;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 25px;
     padding: 25px;
 
     h2 {
       margin-top: 0;
     }
+    p {
+      text-indent: 10%;
+      line-height: 20px;
+      margin: 5px 0px;
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
   }
 
   .info_area {
     grid-area: info_area;
     padding: 25px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 25px;
 
     .first_title {
       margin-top: 0;
+    }
+
+    .level_tabs {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+
+      .level_tab_active {
+        color: #142a4b;
+        border-bottom: 5px solid #142a4b;
+      }
     }
   }
 }
