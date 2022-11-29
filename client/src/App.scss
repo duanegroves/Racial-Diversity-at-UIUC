@@ -123,16 +123,6 @@ pre {
     h2 {
       margin-top: 0;
     }
-    p {
-      text-indent: 10%;
-      line-height: 20px;
-      margin: 5px 0px;
-
-      a {
-        text-decoration: none;
-        font-weight: 600;
-      }
-    }
   }
 
   .info_area {
@@ -143,6 +133,17 @@ pre {
 
     .first_title {
       margin-top: 0;
+    }
+
+    p {
+      text-indent: 5%;
+      line-height: 20px;
+      margin: 5px 0px;
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+      }
     }
 
     .level_tabs {

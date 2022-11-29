@@ -17,9 +17,7 @@ const StackedBarChartSINGLECOMPONENT = ({
     return <pre>Loading...</pre>;
   }
 
-  console.log(data);
   data = data.filter(dataFilter);
-  console.log(data);
 
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
@@ -106,12 +104,12 @@ const StackedBarChartSINGLECOMPONENT = ({
           }
           {
             // Bars
-            stackedData.map((col) => (
+            stackedData.map((col, col_idx) => (
               <g key={col.key}>
-                {col.map((el) => (
+                {col.map((el, el_idx) => (
                   <rect
                     className="mark"
-                    key={yValue(el.data) + "->" + col.key}
+                    key={el_idx + "->" + col.key}
                     x={xScale(el[0])}
                     y={yScale(yValue(el.data))}
                     width={xScale(el[1]) - xScale(el[0])}

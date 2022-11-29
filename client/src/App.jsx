@@ -84,16 +84,26 @@ const App = () => {
             <a href="https://www.linkedin.com/learning/diversity-inclusion-and-belonging-2019">
               diversity, inclusion, and belonging (DIBs)
             </a>
-            , I wanted to utilize these skills to take a look at Racial
-            Diversity at UIUC.
+            , I wanted to utilize my skills to take a look at Racial Diversity
+            at UIUC.
           </p>
           <p>
             With inspiration from{" "}
             <a href="https://waf.cs.illinois.edu/discovery/Gender-Diversity-at-UIUC/">
               Prof. Wade's Gender Diversity at UIUC project
+            </a>{" "}
+            and data from{" "}
+            <a href="https://dmi.illinois.edu/index.htm">
+              the Illinois Division of Management Information
             </a>
-            , this tool aims to provide information on raw data, and context for
-            discussions on diversity.
+            , this tool aims to provide information on raw data and context for
+            discussions on diversity. Though it is widely considered that UIUC
+            is one of the most diverse colleges in the world, there is always
+            room for improvement. Students have begun to anecdotally see this in
+            how some majors seem more concentrated than others. By presenting
+            raw statistics and resources, one can move past anecdotal evidence
+            as well as start to speculate on the underlying structures in place
+            which are causing this.
           </p>
         </div>
         <div className="info_area">
