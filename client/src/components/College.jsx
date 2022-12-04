@@ -11,6 +11,13 @@ const CollegePage = () => {
   return (
     <>
       <h1 className="first_title">College Overview</h1>
+      <p>
+        In this college overview page, you can now take a look at each college's make-up independantly. 
+      </p>
+      <p>
+        In the future I have the same aspirations of showcasing the data with different types of graphics with colors to
+        enable each individual to use the 
+      </p>
       <StackedBarChartSINGLECOMPONENT_copy
         className="graphics"
         width={750}
@@ -37,7 +44,6 @@ const CollegePage = () => {
             </div>
           ))}
         </div>
-
         <div className="level_content">
           <StackedBarChartSINGLECOMPONENT_copy
             className="graphics"

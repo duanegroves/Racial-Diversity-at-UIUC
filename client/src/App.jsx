@@ -5,6 +5,7 @@ import {
   faHome,
   faBuildingColumns,
   faBook,
+  faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.scss";
 import PersonalImage from "./assets/Beaver.PNG";
@@ -30,7 +31,7 @@ const App = () => {
               navData.isActive ? "nav_link_active" : "nav_link"
             }
           >
-            <FontAwesomeIcon size="xl" icon={faHome} className="sidebar_icon" />
+            <FontAwesomeIcon size="xl" icon={faHome} />
           </NavLink>
           <NavLink
             to="/college"
@@ -38,11 +39,7 @@ const App = () => {
               navData.isActive ? "nav_link_active" : "nav_link"
             }
           >
-            <FontAwesomeIcon
-              size="xl"
-              icon={faBuildingColumns}
-              className="sidebar_icon"
-            />
+            <FontAwesomeIcon size="xl" icon={faBuildingColumns} />
           </NavLink>
           <NavLink
             to="/major"
@@ -50,9 +47,17 @@ const App = () => {
               navData.isActive ? "nav_link_active" : "nav_link"
             }
           >
-            <FontAwesomeIcon size="xl" icon={faBook} className="sidebar_icon" />
+            <FontAwesomeIcon size="xl" icon={faBook} />
           </NavLink>
         </div>
+        {/* <a
+          href="https://github.com/duanegroves/Racial-Diversity-at-UIUC"
+          className="nav_link code_link"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FontAwesomeIcon size="xl" icon={faCode} />
+        </a> */}
       </div>
 
       <div className="main">
@@ -72,7 +77,7 @@ const App = () => {
           </div>
         </div>
         <div className="purpose_area">
-          <h2>Racial Demographics at UIUC</h2>
+          <h2 className="first_title">Racial Demographics at UIUC</h2>
           <p>
             For{" "}
             <a href="http://catalog.illinois.edu/courses-of-instruction/is/">
@@ -105,6 +110,15 @@ const App = () => {
             as well as start to speculate on the underlying structures in place
             which are causing this.
           </p>
+          {/* <p className="counter-text">
+            This page has been viewed at least &nbsp;
+            <img
+              src="https://stuff.mit.edu/cgi/counter/duanegroves_racial_diversity_at_uiuc"
+              alt="counter"
+              className="counter"
+            />{" "}
+            &nbsp; times
+          </p> */}
         </div>
         <div className="info_area">
           <Routes>

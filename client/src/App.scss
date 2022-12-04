@@ -30,7 +30,7 @@ pre {
   left: 0;
   background-color: #ffffff;
   overflow-x: hidden;
-  padding-top: 16px;
+  padding: 16px 0;
 
   .logo_flex {
     display: flex;
@@ -48,25 +48,25 @@ pre {
     flex-direction: column;
     place-items: center;
     margin: 0 auto 0 auto;
+  }
 
-    .nav_link {
-      border-radius: 10px;
-      padding: 12px;
-      color: #272727;
-      background-color: #f5f4f3;
+  .nav_link {
+    border-radius: 10px;
+    padding: 12px;
+    color: #272727;
+    background-color: #f5f4f3;
 
-      &:hover {
-        color: #ffffff;
-        background-color: #142a4b;
-      }
-    }
-
-    .nav_link_active {
-      border-radius: 10px;
-      padding: 12px;
+    &:hover {
       color: #ffffff;
       background-color: #142a4b;
     }
+  }
+
+  .nav_link_active {
+    border-radius: 10px;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #142a4b;
   }
 }
 
@@ -120,8 +120,19 @@ pre {
     border-radius: 25px;
     padding: 25px;
 
-    h2 {
+    .first_title {
       margin-top: 0;
+    }
+
+    p {
+      text-indent: 5%;
+      line-height: 20px;
+      margin: 5px 0px;
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+      }
     }
   }
 

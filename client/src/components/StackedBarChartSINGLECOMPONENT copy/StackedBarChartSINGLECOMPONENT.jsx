@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as d3 from "d3";
 import useData from "../useData";
 
@@ -12,6 +12,8 @@ const StackedBarChartSINGLECOMPONENT = ({
   yValue,
 }) => {
   let data = useData(dataCsvUrl);
+  const [hoveredRace, setHoveredRace] = useState(null);
+  const fadeOpacity = 0.2;
 
   if (!data) {
     return <pre>Loading...</pre>;
@@ -45,8 +47,9 @@ const StackedBarChartSINGLECOMPONENT = ({
     "Race: Unknown",
   ];
 
-  const colors = d3
+  const colorScale = d3
     .scaleOrdinal()
+    .domain(keys)
     .range([
       "#98abc5",
       "#8a89a6",
@@ -57,8 +60,7 @@ const StackedBarChartSINGLECOMPONENT = ({
       "#ff8c00",
       "#d0743c",
       "#a05d56",
-    ])
-    .domain(keys);
+    ]);
 
   const stack = d3.stack().keys(keys);
 
@@ -67,7 +69,38 @@ const StackedBarChartSINGLECOMPONENT = ({
   return (
     <div id="svg_container">
       <svg width={width} height={height}>
-        <g transform={`translate(${margin.left},${margin.top})`}>
+        <g transform={`translate(${40},${margin.top})`}>
+          {
+            // Color Legend
+            colorScale.domain().map((domainValue, i) => (
+              <g
+                className="tick"
+                transform={`translate(${(i % 4) * 180}, ${
+                  Math.floor(i / 4) * 15
+                })`}
+                onMouseEnter={() => {
+                  setHoveredRace(domainValue);
+                }}
+                onMouseOut={() => {
+                  setHoveredRace(null);
+                }}
+                opacity={
+                  hoveredRace && domainValue !== hoveredRace ? fadeOpacity : 1
+                }
+              >
+                <circle fill={colorScale(domainValue)} r={5} />
+                <text x={20} dy=".32em">
+                  {domainValue.substring(6)}
+                </text>
+              </g>
+            ))
+          }
+        </g>
+        <g
+          transform={`translate(${margin.left},${
+            margin.top + (Math.floor(keys.length / 4) + 1) * 15
+          })`}
+        >
           {
             // X Scale Ticks and Labels
             xScale.ticks().map((tickValue) => (
@@ -105,7 +138,12 @@ const StackedBarChartSINGLECOMPONENT = ({
           {
             // Bars
             stackedData.map((col, col_idx) => (
-              <g key={col.key}>
+              <g
+                key={col.key}
+                opacity={
+                  hoveredRace && col.key !== hoveredRace ? fadeOpacity : 1
+                }
+              >
                 {col.map((el, el_idx) => (
                   <rect
                     className="mark"
@@ -114,7 +152,13 @@ const StackedBarChartSINGLECOMPONENT = ({
                     y={yScale(yValue(el.data))}
                     width={xScale(el[1]) - xScale(el[0])}
                     height={yScale.bandwidth()}
-                    fill={colors(col.key)}
+                    fill={colorScale(col.key)}
+                    onMouseEnter={() => {
+                      setHoveredRace(col.key);
+                    }}
+                    onMouseOut={() => {
+                      setHoveredRace(null);
+                    }}
                   >
                     <title>{xValue(col)}</title>
                   </rect>
