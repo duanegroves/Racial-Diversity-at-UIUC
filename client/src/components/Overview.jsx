@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
+// import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
 import StackedBarChartSINGLECOMPONENT_copy from "./StackedBarChartSINGLECOMPONENT copy/StackedBarChartSINGLECOMPONENT";
-import StackedBarChart from "./StackedBarChart/StackedBarChart";
+// import StackedBarChart from "./StackedBarChart/StackedBarChart";
 
 const OverviewPage = () => {
   const [levelTabActive, setLevelTab] = useState("Undergraduate ");

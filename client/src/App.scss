@@ -206,7 +206,8 @@ pre {
     .level_tabs {
       display: flex;
       flex-direction: row;
-      gap: 50px;
+      flex-wrap: wrap;
+      gap: 10px 50px;
       justify-content: center;
 
       .level_tab_active {

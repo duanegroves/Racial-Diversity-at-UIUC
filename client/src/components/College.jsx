@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
+// import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
 import StackedBarChartSINGLECOMPONENT_copy from "./StackedBarChartSINGLECOMPONENT copy/StackedBarChartSINGLECOMPONENT";
-import StackedBarChart from "./StackedBarChart/StackedBarChart";
+// import StackedBarChart from "./StackedBarChart/StackedBarChart";
 
 const CollegePage = () => {
   const [levelTabActive, setLevelTab] = useState("Undergraduate ");
@@ -16,15 +16,18 @@ const CollegePage = () => {
         each college independantly. Hopefully, in continuing the pattern from
         the previous campus overview page, this will start to hit more on how
         the different colleges may or may not tell different stories. One
-        example of this may be comparing colleges such as Grainger Engineer and
-        Liberal Arts & Sci.
+        example of this may be comparing Grainger Engineering and Buisness to
+        other colleges. As of 2022, the majority of colleges have around 12% to
+        17% Hispanic, however, the major colleges of Engineering and Buisness
+        (which debatably enable the most socioeconomic movement) present
+        statistics that show around 6% and 8%. Either from self-selection bias,
+        socioeconomic background, or tokenization, this is one example of
+        critical thought which I hope is inspired by these statistics.
       </p>
       <p>
         In the future I have the same aspirations of showcasing the data with
         different types of graphics and colors to enable each individual to use
-        the application in a way that bests suits them. With this page there is
-        the additional wished feature of tooltips which I have not been able to
-        figure out. This tooltip would be on a hover of a bar
+        the application in a way that bests suits them.
       </p>
       <StackedBarChartSINGLECOMPONENT_copy
         className="graphics"

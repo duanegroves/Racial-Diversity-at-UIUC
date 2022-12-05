@@ -75,6 +75,7 @@ const StackedBarChartSINGLECOMPONENT = ({
             // Color Legend
             colorScale.domain().map((domainValue, i) => (
               <g
+                key={domainValue}
                 className="tick"
                 transform={`translate(${(i % 4) * 180}, ${
                   Math.floor(i / 4) * 15
@@ -146,27 +147,38 @@ const StackedBarChartSINGLECOMPONENT = ({
                 }
               >
                 {col.map((el, el_idx) => (
-                  <>
-                    <rect
-                      className="mark"
-                      key={el_idx + "->" + col.key}
-                      x={xScale(el[0])}
-                      y={yScale(yValue(el.data))}
-                      width={xScale(el[1]) - xScale(el[0])}
-                      height={yScale.bandwidth()}
-                      fill={colorScale(col.key)}
-                      onMouseEnter={() => {
-                        setHoveredRace(col.key);
-                        setHoveredToolTip(el_idx + "->" + col.key);
-                      }}
-                      onMouseOut={() => {
-                        setHoveredRace(null);
-                        setHoveredToolTip(null);
-                      }}
-                    />
+                  <rect
+                    className="mark"
+                    key={el_idx + "->" + col.key}
+                    x={xScale(el[0])}
+                    y={yScale(yValue(el.data))}
+                    width={xScale(el[1]) - xScale(el[0])}
+                    height={yScale.bandwidth()}
+                    fill={colorScale(col.key)}
+                    onMouseEnter={() => {
+                      setHoveredRace(col.key);
+                      setHoveredToolTip(el_idx + "->" + col.key);
+                    }}
+                    onMouseOut={() => {
+                      setHoveredRace(null);
+                      setHoveredToolTip(null);
+                    }}
+                  />
+                ))}
+              </g>
+            ))
+          }
+          {
+            // ToolTips
+            // Had to serparate from bars because bars were overlapping on z-index
+            stackedData.map((col, col_idx) => (
+              <g key={col.key}>
+                {col.map((el, el_idx) => (
+                  <g key={el_idx + "->" + col.key}>
                     {hoveredToolTip &&
                     hoveredToolTip === el_idx + "->" + col.key ? (
                       <foreignObject
+                        id="tool_tip"
                         x={innerWidth - 200}
                         y={innerHeight - 200}
                         width={200}
@@ -205,7 +217,7 @@ const StackedBarChartSINGLECOMPONENT = ({
                         </div>
                       </foreignObject>
                     ) : null}
-                  </>
+                  </g>
                 ))}
               </g>
             ))

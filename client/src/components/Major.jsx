@@ -1,18 +1,13 @@
 import React, { useState } from "react";
-import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
+// import StackedBarChartSINGLECOMPONENT from "./StackedBarChartSINGLECOMPONENT/StackedBarChartSINGLECOMPONENT";
 import StackedBarChartSINGLECOMPONENT_copy from "./StackedBarChartSINGLECOMPONENT copy/StackedBarChartSINGLECOMPONENT";
-import StackedBarChart from "./StackedBarChart/StackedBarChart";
-import { useSearchParams } from "react-router-dom";
+// import StackedBarChart from "./StackedBarChart/StackedBarChart";
+// import { useSearchParams } from "react-router-dom";
 import useData from "./useData";
 
 const MajorPage = () => {
-  const [levelTabActive, setLevelTab] = useState("Undergraduate");
-  const [searchParams, setSearchParams] = useSearchParams({ College: "KL" });
-
-  const handleChange = (event) => {
-    event.preventDefault();
-    setSearchParams({ College: event.target.value });
-  };
+  const [levelTabActive, setLevelTab] = useState("BS");
+  const [activeCollege, setActiveCollege] = useState("KL");
 
   const collegeOptions = [
     { value: "KL", label: "KL - Agr, Cons, Env Sci" },
@@ -32,7 +27,6 @@ const MajorPage = () => {
     { value: "LN", label: "LN - Center Innov in Teach Learn" },
     { value: "LP", label: "LP - School of Information Sciences" },
     { value: "LT", label: "LT - Carle Illinois Medicine" },
-    { value: "NB", label: "NB  - Provost & VC Acad Affairs" },
   ];
 
   let degreeOptions = [];
@@ -45,7 +39,7 @@ const MajorPage = () => {
         data
           .filter(
             (el) =>
-              el["Coll"] === searchParams.get("College") &&
+              el["Coll"] === activeCollege &&
               el["Degree"] !== "***Major total***"
           )
           .map((el) => el["Degree"])
@@ -53,12 +47,45 @@ const MajorPage = () => {
     ];
   }
 
+  const handleCollegeChange = (event) => {
+    event.preventDefault();
+    setActiveCollege(event.target.value);
+    if (data !== null) {
+      degreeOptions = [
+        ...new Set(
+          data
+            .filter(
+              (el) =>
+                el["Coll"] === event.target.value &&
+                el["Degree"] !== "***Major total***"
+            )
+            .map((el) => el["Degree"])
+        ),
+      ];
+    }
+    setLevelTab(degreeOptions[0]);
+  };
+
   return (
     <>
       <h1 className="first_title">Major Overview</h1>
-      <label htmlFor="major">Choose a Major:</label>
+      <p>
+        In this major overview page, you can look at the breakdown by majors.
+        Though it is evident in the other graphics presented, something that has
+        caught my eye as a CS+Philosophy major here at the Univeristy of
+        Illinois is the immediate fall-off of Hispanics and African Americans in
+        engineering as you look at graudate level programs. This is in
+        contradiction from what I hear from the department when we discuss
+        diversity, and is an interesting observation from the data presented. As
+        I hope to instill in others, emboldened by this information I aim to be
+        able to act upon it and utilize this in further discussions with the
+        department to create critical thought and changing discussions.
+      </p>
+      <label htmlFor="major" style={{ fontWeight: "bold" }}>
+        Choose a Major:
+      </label>
       <div className="App">
-        <select value={searchParams.get("College")} onChange={handleChange}>
+        <select value={activeCollege} onChange={handleCollegeChange}>
           {collegeOptions.map((option) => (
             <option key={option.value} value={option.value}>
               {option.label}
@@ -76,8 +103,7 @@ const MajorPage = () => {
           "https://raw.githubusercontent.com/duanegroves/Racial-Diversity-at-UIUC/main/data/d3_readable_csv/2022fa_details_major_aggregate.csv"
         }
         dataFilter={(el) =>
-          el["Degree"] == "***Major total***" &&
-          el["Coll"] == searchParams.get("College")
+          el["Degree"] == "***Major total***" && el["Coll"] == activeCollege
         }
         xValue={(d) => d["Total"]}
         yValue={(d) => d["Major Name"]}
@@ -107,8 +133,7 @@ const MajorPage = () => {
               "https://raw.githubusercontent.com/duanegroves/Racial-Diversity-at-UIUC/main/data/d3_readable_csv/2022fa_details_major_aggregate.csv"
             }
             dataFilter={(el) =>
-              el["Coll"] == searchParams.get("College") &&
-              el["Degree"] == levelTabActive
+              el["Coll"] == activeCollege && el["Degree"] == levelTabActive
             }
             xValue={(d) => d["Total"]}
             yValue={(d) => d["Major Name"]}
