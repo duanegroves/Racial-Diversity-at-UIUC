@@ -110,7 +110,7 @@ const App = () => {
             as well as start to speculate on the underlying structures in place
             which are causing the possible concentrations.
           </p>
-          {/* <p className="counter-text">
+          <p className="counter-text">
             This page has been viewed at least &nbsp;
             <img
               src="https://stuff.mit.edu/cgi/counter/duanegroves_racial_diversity_at_uiuc"
@@ -118,7 +118,7 @@ const App = () => {
               className="counter"
             />{" "}
             &nbsp; times
-          </p> */}
+          </p>
         </div>
         <div className="info_area">
           <Routes>
