@@ -108,7 +108,7 @@ const App = () => {
             how some majors seem more concentrated than others. By presenting
             raw statistics and resources, one can move past anecdotal evidence
             as well as start to speculate on the underlying structures in place
-            which are causing this.
+            which are causing the possible concentrations.
           </p>
           {/* <p className="counter-text">
             This page has been viewed at least &nbsp;

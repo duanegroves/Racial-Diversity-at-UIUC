@@ -12,11 +12,19 @@ const CollegePage = () => {
     <>
       <h1 className="first_title">College Overview</h1>
       <p>
-        In this college overview page, you can now take a look at each college's make-up independantly. 
+        In this college overview page, you can now take a look at the make-up of
+        each college independantly. Hopefully, in continuing the pattern from
+        the previous campus overview page, this will start to hit more on how
+        the different colleges may or may not tell different stories. One
+        example of this may be comparing colleges such as Grainger Engineer and
+        Liberal Arts & Sci.
       </p>
       <p>
-        In the future I have the same aspirations of showcasing the data with different types of graphics with colors to
-        enable each individual to use the 
+        In the future I have the same aspirations of showcasing the data with
+        different types of graphics and colors to enable each individual to use
+        the application in a way that bests suits them. With this page there is
+        the additional wished feature of tooltips which I have not been able to
+        figure out. This tooltip would be on a hover of a bar
       </p>
       <StackedBarChartSINGLECOMPONENT_copy
         className="graphics"

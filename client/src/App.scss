@@ -21,6 +21,52 @@ pre {
   fill: #635f5d;
 }
 
+.tool_tip {
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  border-radius: 10px;
+  color: #ffffff;
+
+  h3,
+  span {
+    margin: 0 0;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .tool_tip_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    div {
+      flex: 1;
+      padding: 0.3em; /* add some padding ?*/
+      text-align: center;
+      border-right: 1px solid #fff;
+    }
+
+    div:last-child {
+      border: none; /* remove border ? */
+    }
+
+    span {
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 34px;
+      font-size: 24px;
+      color: #000;
+    }
+  }
+}
+
 .sidebar {
   height: 100%;
   width: 100px;

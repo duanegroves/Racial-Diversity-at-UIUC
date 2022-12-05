@@ -13,6 +13,7 @@ const StackedBarChartSINGLECOMPONENT = ({
 }) => {
   let data = useData(dataCsvUrl);
   const [hoveredRace, setHoveredRace] = useState(null);
+  const [hoveredToolTip, setHoveredToolTip] = useState(null);
   const fadeOpacity = 0.2;
 
   if (!data) {
@@ -145,23 +146,66 @@ const StackedBarChartSINGLECOMPONENT = ({
                 }
               >
                 {col.map((el, el_idx) => (
-                  <rect
-                    className="mark"
-                    key={el_idx + "->" + col.key}
-                    x={xScale(el[0])}
-                    y={yScale(yValue(el.data))}
-                    width={xScale(el[1]) - xScale(el[0])}
-                    height={yScale.bandwidth()}
-                    fill={colorScale(col.key)}
-                    onMouseEnter={() => {
-                      setHoveredRace(col.key);
-                    }}
-                    onMouseOut={() => {
-                      setHoveredRace(null);
-                    }}
-                  >
-                    <title>{xValue(col)}</title>
-                  </rect>
+                  <>
+                    <rect
+                      className="mark"
+                      key={el_idx + "->" + col.key}
+                      x={xScale(el[0])}
+                      y={yScale(yValue(el.data))}
+                      width={xScale(el[1]) - xScale(el[0])}
+                      height={yScale.bandwidth()}
+                      fill={colorScale(col.key)}
+                      onMouseEnter={() => {
+                        setHoveredRace(col.key);
+                        setHoveredToolTip(el_idx + "->" + col.key);
+                      }}
+                      onMouseOut={() => {
+                        setHoveredRace(null);
+                        setHoveredToolTip(null);
+                      }}
+                    />
+                    {hoveredToolTip &&
+                    hoveredToolTip === el_idx + "->" + col.key ? (
+                      <foreignObject
+                        x={innerWidth - 200}
+                        y={innerHeight - 200}
+                        width={200}
+                        height={200}
+                        onMouseEnter={() => {
+                          setHoveredRace(col.key);
+                          setHoveredToolTip(el_idx + "->" + col.key);
+                        }}
+                        onMouseOut={() => {
+                          setHoveredRace(null);
+                          setHoveredToolTip(null);
+                        }}
+                      >
+                        <div className="tool_tip" id="tool_tip">
+                          <h3>{col.key.slice(6)}</h3>
+                          <p>{yValue(el.data)}</p>
+                          <div className="tool_tip_flex">
+                            <div>
+                              <h3>{el.data[col.key]}</h3>
+                              <sub>students</sub>
+                            </div>
+                            <div>
+                              <h3>
+                                {(
+                                  (el.data[col.key] / el.data.Total) *
+                                  100
+                                ).toFixed(2)}
+                                %
+                              </h3>
+                              <sub>of students</sub>
+                            </div>
+                          </div>
+                          <p>
+                            Out of <span>{el.data.Total}</span> students
+                          </p>
+                        </div>
+                      </foreignObject>
+                    ) : null}
+                  </>
                 ))}
               </g>
             ))
