@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Routes, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faBuildingColumns,
   faBook,
-  faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.scss";
 import PersonalImage from "./assets/Beaver.PNG";
